@@ -12,6 +12,12 @@ const background = document.getElementById("bgImg");
 const music = new Audio();
 const songs = [
   {
+    path: "songs/pumpit.mp3",
+    displayName: "Pump It",
+    cover: "songs/pump.jpg",
+    artist: "The Black Eyed Peas",
+  },
+  {
     path: "songs/nightwish.mp3",
     displayName: "Over the Hills and Far Away",
     cover: "songs/night.jpg",
@@ -46,6 +52,12 @@ const songs = [
     displayName: "Mining Melancholy",
     cover: "songs/dkcountry.jpg",
     artist: "David Wise",
+  },
+  {
+    path: "songs/atrapasuenos.mp3",
+    displayName: "El Atrapahumjenjos Yo Soy",
+    cover: "songs/atrapa.jpg",
+    artist: "Mägo de Oz",
   },
 ];
 
