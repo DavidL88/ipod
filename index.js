@@ -5,16 +5,32 @@ const currentTimeEl = document.getElementById("currentTime");
 const durationEl = document.getElementById("duration");
 const progress = document.getElementById("progress");
 const playerProgress = document.getElementById("playerProgress");
+const shuffleBtn = document.getElementById("shufle");
 const prevBtn = document.getElementById("prev");
 const nextBtn = document.getElementById("next");
 const playBtn = document.getElementById("play");
+const repeatBtn = document.getElementById("repeat");
 const background = document.getElementById("bgImg");
 const volumeBar = document.getElementById("volumeBar");
 const volumeRelleno = document.getElementById("volumeRelleno");
 const volumeBolita = document.getElementById("volumeBolita");
 const music = new Audio();
+let isRepeatOn = false;
 let isDragging = false;
+let isShuffleOn = false;
 const songs = [
+  {
+    path: "songs/siempreunidos.mp3",
+    displayName: "Por Siempre Juntos",
+    cover: "songs/siempreunidos.jpg",
+    artist: "Ricardo Silva",
+  },
+  {
+    path: "songs/bonjovi2.mp3",
+    displayName: "Blaze of Glory",
+    cover: "songs/bonjovi2.jpg",
+    artist: "Bon Jovi",
+  },
   {
     path: "songs/pumpit.mp3",
     displayName: "Pump It",
@@ -26,6 +42,18 @@ const songs = [
     displayName: "Over the Hills and Far Away",
     cover: "songs/night.jpg",
     artist: "Nightwish",
+  },
+  {
+    path: "songs/pokemon2000.mp3",
+    displayName: "Pokémon The Movie 2000",
+    cover: "songs/pokemon2000.jpg",
+    artist: "ALejandro P. y Daniela A.",
+  },
+  {
+    path: "songs/johto.mp3",
+    displayName: "Los Viajes Johto",
+    cover: "songs/johto.jpg",
+    artist: "Rodrigo Zea",
   },
   {
     path: "songs/goldenSun.mp3",
@@ -55,7 +83,7 @@ const songs = [
     path: "songs/sonador.mp3",
     displayName: "El Gran Soñador",
     cover: "songs/dig3.jpg",
-    artist: "Ricardo Silva",
+    artist: "Cisar Franck",
   },
   {
     path: "songs/yaloveia.mp3",
@@ -147,6 +175,18 @@ const songs = [
     cover: "songs/rompecabezas.jpg",
     artist: "Los concorde",
   },
+  {
+    path: "songs/snakeyes.mp3",
+    displayName: "Snake Eyes",
+    cover: "songs/snakeyes.jpg",
+    artist: "Feint feat. CoMa",
+  },
+  {
+    path: "songs/crazy.mp3",
+    displayName: "Crazy",
+    cover: "songs/crazy.jpg",
+    artist: "Aerosmith",
+  },
 ];
 
 let musicIndex = 0;
@@ -219,12 +259,30 @@ function adjustVolume(e) {
   volumeBolita.style.left = volumeLevel * 100 + "%";
 }
 
+function shuffleArray(array) {
+  for (let i = array.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [array[i], array[j]] = [array[j], array[i]];
+  }
+}
+
 playBtn.addEventListener("click", togglePlay);
 prevBtn.addEventListener("click", () => changeMusic(-1));
 nextBtn.addEventListener("click", () => changeMusic(1));
-music.addEventListener("ended", () => changeMusic(1));
 music.addEventListener("timeupdate", updateProgressBar);
 playerProgress.addEventListener("click", setProgressBar);
+music.addEventListener("ended", () => {
+  if (isRepeatOn) {
+    music.currentTime = 0;
+    playMusic();
+  } else if (isShuffleOn) {
+    musicIndex = Math.floor(Math.random() * songs.length);
+    loadMusic(songs[musicIndex]);
+    playMusic();
+  } else {
+    changeMusic(1);
+  }
+});
 volumeBar.addEventListener("mousedown", (e) => {
   isDragging = true;
   adjustVolume(e);
@@ -236,6 +294,30 @@ document.addEventListener("mousemove", (e) => {
 });
 document.addEventListener("mouseup", () => {
   isDragging = false;
+});
+// shuffleBtn.addEventListener("click", () => {
+//   shuffleArray(songs);
+//   musicIndex = 0;
+//   loadMusic(songs[musicIndex]);
+//   playMusic();
+// });
+shuffleBtn.addEventListener("click", () => {
+  isShuffleOn = !isShuffleOn;
+
+  if (isShuffleOn) {
+    shuffleBtn.classList.add("active");
+  } else {
+    shuffleBtn.classList.remove("active");
+  }
+});
+repeatBtn.addEventListener("click", () => {
+  isRepeatOn = !isRepeatOn;
+
+  if (isRepeatOn) {
+    repeatBtn.classList.add("active");
+  } else {
+    repeatBtn.classList.remove("active");
+  }
 });
 
 loadMusic(songs[musicIndex]);
