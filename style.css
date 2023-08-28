@@ -1,0 +1,143 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap");
+
+html {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 0.75rem;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.background {
+  position: fixed;
+  inline-size: 200%;
+  block-size: 200%;
+  inset-block-start: -50%;
+  inset-inline-start: -50%;
+  z-index: -1;
+}
+
+.background img {
+  position: absolute;
+  margin: auto;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  min-inline-size: 50%;
+  min-block-size: 50%;
+  filter: blur(15px);
+  -webkit-filter: blur(50px);
+  transform: scale(1.1);
+}
+
+.wrapper {
+  background-color: #e7e7e7;
+  block-size: 31.25rem;
+  inline-size: 25rem;
+  border-radius: 1.25rem;
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3);
+  transition: all 0.5s ease;
+}
+
+.wrapper:hover {
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.6);
+}
+
+.player-img {
+  inline-size: 18.75rem;
+  block-size: 18.75rem;
+  position: relative;
+  inset-block-start: -3.125rem;
+  inset-inline-start: 3.125rem;
+}
+
+.player-img img {
+  object-fit: cover;
+  border-radius: 20px;
+  height: 0;
+  width: 0;
+  opacity: 0;
+  box-shadow: 0 5px 30px 5px rgba(0, 0, 0, 0.5);
+}
+
+.player-img:hover img {
+  box-shadow: 0 5px 30px 5px rgba(0, 0, 0, 0.8);
+}
+
+.player-img img.active {
+  inline-size: 100%;
+  block-size: 100%;
+  transition: all 0.5s;
+  opacity: 1;
+}
+
+h2 {
+  font-size: 1.5625rem;
+  text-align: center;
+  font-weight: 500;
+  margin: 10px 0 0;
+}
+
+h3 {
+  font-size: 1.125rem;
+  text-align: center;
+  font-weight: 500;
+  margin: 10px 0 0;
+}
+
+.player-progress {
+  background-color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 40px 20px 35px;
+  block-size: 6px;
+  inline-size: 90%;
+}
+
+.progress {
+  background-color: #212121;
+  border-radius: 5px;
+  block-size: 100%;
+  inline-size: 0%;
+  transition: width 0.1s linear;
+}
+
+.music-duration {
+  position: relative;
+  inset-block-start: -25px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.player-controls {
+  position: relative;
+  inset-block-start: -15px;
+  inset-inline-start: 7.5rem;
+  inline-size: 12.5rem;
+}
+
+.fa-solid {
+  font-size: 30px;
+  color: #666;
+  margin-inline-end: 30px;
+  cursor: pointer;
+  user-select: none;
+  transition: all 0.3s ease;
+}
+
+.fa-solid:hover {
+  filter: brightness(40%);
+}
+
+.play-button {
+  font-size: 2.75rem;
+  position: relative;
+  inset-block-start: 3px;
+}
