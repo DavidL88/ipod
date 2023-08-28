@@ -29,6 +29,24 @@ const songs = [
     cover: "songs/bonjovii.jpg",
     artist: "Bon Jovi",
   },
+  {
+    path: "songs/donkeyc2.mp3",
+    displayName: "Hot Head Bop",
+    cover: "songs/dkc2.jpg",
+    artist: "David Wise",
+  },
+  {
+    path: "songs/hola.mp3",
+    displayName: "Hola!",
+    cover: "songs/Hola!.jpg",
+    artist: "PXNDX",
+  },
+  {
+    path: "songs/mining.mp3",
+    displayName: "Mining Melancholy",
+    cover: "songs/dkcountry.jpg",
+    artist: "David Wise",
+  },
 ];
 
 let musicIndex = 0;
@@ -50,7 +68,7 @@ function playMusic() {
 }
 
 function pauseMusic() {
-  isPlaying = true;
+  isPlaying = false;
   playBtn.classList.replace("fa-pause", "fa-play");
   playBtn.setAttribute("title", "Play");
   music.pause();
