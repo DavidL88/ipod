@@ -82,6 +82,10 @@ body {
   opacity: 1;
 }
 
+.player-img img::selection {
+  background: none;
+}
+
 h2 {
   font-size: 1.5625rem;
   text-align: center;
@@ -120,11 +124,19 @@ h3 {
   justify-content: space-between;
 }
 
+.music-duration span::selection {
+  background: none;
+}
+
 .player-controls {
   position: relative;
   inset-block-start: -15px;
   inset-inline-start: 7.5rem;
   inline-size: 12.5rem;
+}
+
+.player-controls::selection {
+  background: none;
 }
 
 .fa-solid {
@@ -144,4 +156,34 @@ h3 {
   font-size: 2.75rem;
   position: relative;
   inset-block-start: 3px;
+}
+
+.volume {
+  position: relative;
+  inset-block-start: 2px;
+  inset-inline-start: 10px;
+}
+
+input[type="range"] {
+  -webkit-appearance: none;
+  appearance: none;
+  block-size: 10px;
+  background: #ddd;
+  border-radius: 5px;
+}
+input[type="range"]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  inline-size: 10px;
+  block-size: 10px;
+  background: #666;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+input[type="range"]::-webkit-slider-thumb:active {
+  transform: scale(1.2);
+}
+input[type="range"]::-webkit-slider-thumb:hover {
+  filter: brightness(40%);
 }

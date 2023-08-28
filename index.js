@@ -49,6 +49,12 @@ const songs = [
     artist: "PXNDX",
   },
   {
+    path: "songs/sonador.mp3",
+    displayName: "El Gran Soñador",
+    cover: "songs/dig3.jpg",
+    artist: "Ricardo Silva",
+  },
+  {
     path: "songs/yaloveia.mp3",
     displayName: "Ya lo veía venir",
     cover: "songs/mode.jpg",
@@ -65,6 +71,54 @@ const songs = [
     displayName: "El Atrapahumjenjos Yo Soy",
     cover: "songs/atrapa.jpg",
     artist: "Mägo de Oz",
+  },
+  {
+    path: "songs/digop2.mp3",
+    displayName: "Impacto Rojo",
+    cover: "songs/dig2.jpg",
+    artist: "Ricardo Silva",
+  },
+  {
+    path: "songs/coolo.mp3",
+    displayName: "Coolo",
+    cover: "songs/valderrama.jpg",
+    artist: "Illya Kuryaki & The Valderramas",
+  },
+  {
+    path: "songs/mundo.mp3",
+    displayName: "Amor Inmortal",
+    cover: "songs/maguie.jpg",
+    artist: "Maguie Vera",
+  },
+  {
+    path: "songs/digop1.mp3",
+    displayName: "Butterfly",
+    cover: "songs/cesar.jpg",
+    artist: "Cisar Franck",
+  },
+  {
+    path: "songs/bird.mp3",
+    displayName: "Blue Bird",
+    cover: "songs/blue.jpg",
+    artist: "Ikimono Gakari",
+  },
+  {
+    path: "songs/pokerap.mp3",
+    displayName: "Pokerap",
+    cover: "songs/pokerap.jpg",
+    artist: "Oscar Roa",
+  },
+  {
+    path: "songs/air.mp3",
+    displayName: "Playground Love",
+    cover: "songs/air.jpg",
+    artist: "AIR",
+  },
+  {
+    path: "songs/scotpilgrim.mp3",
+    displayName: "Black Sheep",
+    cover: "songs/scottpilgrim.jpg",
+    artist: "Brie Larson",
   },
 ];
 
@@ -108,17 +162,32 @@ function changeMusic(direction) {
   playMusic();
 }
 
+// function updateProgressBar() {
+//   const { duration, currentTime } = music;
+//   const progressPercent = (currentTime / duration) * 100;
+//   progress.style.width = `${progressPercent}%`;
+//   const formatTime = (time) => String(Math.floor(time)).padStart(2, "0");
+//   durationEl.textContent = `${formatTime(duration / 60)}:${formatTime(
+//     duration % 60
+//   )}`;
+//   currentTimeEl.textContent = `${formatTime(currentTime / 60)}:${formatTime(
+//     currentTime % 60
+//   )}`;
+// }
+
 function updateProgressBar() {
   const { duration, currentTime } = music;
-  const progressPercent = (currentTime / duration) * 100;
-  progress.style.width = `${progressPercent}%`;
-  const formatTime = (time) => String(Math.floor(time)).padStart(2, "0");
-  durationEl.textContent = `${formatTime(duration / 60)}:${formatTime(
-    duration % 60
-  )}`;
-  currentTimeEl.textContent = `${formatTime(currentTime / 60)}:${formatTime(
-    currentTime % 60
-  )}`;
+  if (!isNaN(duration) && duration !== 0) {
+    const progressPercent = (currentTime / duration) * 100;
+    progress.style.width = `${progressPercent}%`;
+    const formatTime = (time) => String(Math.floor(time)).padStart(2, "0");
+    durationEl.textContent = `${formatTime(
+      Math.floor(duration / 60)
+    )}:${formatTime(Math.floor(duration % 60))}`;
+    currentTimeEl.textContent = `${formatTime(
+      Math.floor(currentTime / 60)
+    )}:${formatTime(Math.floor(currentTime % 60))}`;
+  }
 }
 
 function setProgressBar(e) {
