@@ -9,6 +9,7 @@ const prevBtn = document.getElementById("prev");
 const nextBtn = document.getElementById("next");
 const playBtn = document.getElementById("play");
 const background = document.getElementById("bgImg");
+const volumen = document.getElementById("volumen");
 const music = new Audio();
 const songs = [
   {
@@ -98,6 +99,7 @@ function loadMusic(song) {
   artist.textContent = song.artist;
   image.src = song.cover;
   background.src = song.cover;
+  music.volume = volumen.value;
 }
 
 function changeMusic(direction) {
@@ -131,4 +133,7 @@ nextBtn.addEventListener("click", () => changeMusic(1));
 music.addEventListener("ended", () => changeMusic(1));
 music.addEventListener("timeupdate", updateProgressBar);
 playerProgress.addEventListener("click", setProgressBar);
+volumen.addEventListener("input", () => {
+  music.volume = volumen.value;
+});
 loadMusic(songs[musicIndex]);
