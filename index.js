@@ -9,8 +9,11 @@ const prevBtn = document.getElementById("prev");
 const nextBtn = document.getElementById("next");
 const playBtn = document.getElementById("play");
 const background = document.getElementById("bgImg");
-const volumen = document.getElementById("volumen");
+const volumeBar = document.getElementById("volumeBar");
+const volumeRelleno = document.getElementById("volumeRelleno");
+const volumeBolita = document.getElementById("volumeBolita");
 const music = new Audio();
+let isDragging = false;
 const songs = [
   {
     path: "songs/pumpit.mp3",
@@ -88,7 +91,7 @@ const songs = [
     path: "songs/mundo.mp3",
     displayName: "Amor Inmortal",
     cover: "songs/maguie.jpg",
-    artist: "Maguie Vera",
+    artist: "Maggie Vera",
   },
   {
     path: "songs/digop1.mp3",
@@ -119,6 +122,30 @@ const songs = [
     displayName: "Black Sheep",
     cover: "songs/scottpilgrim.jpg",
     artist: "Brie Larson",
+  },
+  {
+    path: "songs/pelotero.mp3",
+    displayName: "Grandes Ligas",
+    cover: "songs/pelotero.jpg",
+    artist: "Lupillo, Alemán, Santa Fe Klan,Snoop Dogg",
+  },
+  {
+    path: "songs/rocket.mp3",
+    displayName: "Son Problemas",
+    cover: "songs/rocket.jpg",
+    artist: "Equipo Rocket",
+  },
+  {
+    path: "songs/msnoop.mp3",
+    displayName: "Qué Maldición",
+    cover: "songs/msnoop.jpg",
+    artist: "Banda Ms feat. Snoop Dog",
+  },
+  {
+    path: "songs/rompecabezas.mp3",
+    displayName: "Rompecabezas",
+    cover: "songs/rompecabezas.jpg",
+    artist: "Los concorde",
   },
 ];
 
@@ -153,7 +180,6 @@ function loadMusic(song) {
   artist.textContent = song.artist;
   image.src = song.cover;
   background.src = song.cover;
-  music.volume = volumen.value;
 }
 
 function changeMusic(direction) {
@@ -161,19 +187,6 @@ function changeMusic(direction) {
   loadMusic(songs[musicIndex]);
   playMusic();
 }
-
-// function updateProgressBar() {
-//   const { duration, currentTime } = music;
-//   const progressPercent = (currentTime / duration) * 100;
-//   progress.style.width = `${progressPercent}%`;
-//   const formatTime = (time) => String(Math.floor(time)).padStart(2, "0");
-//   durationEl.textContent = `${formatTime(duration / 60)}:${formatTime(
-//     duration % 60
-//   )}`;
-//   currentTimeEl.textContent = `${formatTime(currentTime / 60)}:${formatTime(
-//     currentTime % 60
-//   )}`;
-// }
 
 function updateProgressBar() {
   const { duration, currentTime } = music;
@@ -196,13 +209,33 @@ function setProgressBar(e) {
   music.currentTime = (clickX / width) * music.duration;
 }
 
+function adjustVolume(e) {
+  const boundingRect = volumeBar.getBoundingClientRect();
+  const offsetX = e.clientX - boundingRect.left;
+  const volumeLevel = Math.min(1, Math.max(0, offsetX / boundingRect.width));
+
+  music.volume = volumeLevel;
+  volumeRelleno.style.setProperty("--fill", volumeLevel * 100 + "%");
+  volumeBolita.style.left = volumeLevel * 100 + "%";
+}
+
 playBtn.addEventListener("click", togglePlay);
 prevBtn.addEventListener("click", () => changeMusic(-1));
 nextBtn.addEventListener("click", () => changeMusic(1));
 music.addEventListener("ended", () => changeMusic(1));
 music.addEventListener("timeupdate", updateProgressBar);
 playerProgress.addEventListener("click", setProgressBar);
-volumen.addEventListener("input", () => {
-  music.volume = volumen.value;
+volumeBar.addEventListener("mousedown", (e) => {
+  isDragging = true;
+  adjustVolume(e);
 });
+document.addEventListener("mousemove", (e) => {
+  if (isDragging) {
+    adjustVolume(e);
+  }
+});
+document.addEventListener("mouseup", () => {
+  isDragging = false;
+});
+
 loadMusic(songs[musicIndex]);
