@@ -48,6 +48,12 @@ const songs = [
     artist: "PXNDX",
   },
   {
+    path: "songs/yaloveia.mp3",
+    displayName: "Ya lo veía venir",
+    cover: "songs/mode.jpg",
+    artist: "Moderatto",
+  },
+  {
     path: "songs/mining.mp3",
     displayName: "Mining Melancholy",
     cover: "songs/dkcountry.jpg",
