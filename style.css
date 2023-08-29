@@ -18,6 +18,24 @@ body {
   background: orange;
 }
 
+.logoHeader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 10px;
+  z-index: 100;
+}
+
+.logo {
+  cursor: pointer;
+}
+
+.logoHeader img:hover {
+  content: url("./songs/neKiPod2.svg");
+  filter: brightness(150%);
+}
+
 .background {
   position: fixed;
   inline-size: 200%;
@@ -221,4 +239,14 @@ h3 {
 
 .volumeBolita:hover {
   filter: brightness(40%);
+}
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  padding: 10px;
+  color: white;
+  font-size: 14px;
+  z-index: 100;
 }

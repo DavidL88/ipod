@@ -223,8 +223,11 @@ function loadMusic(song) {
 }
 
 function changeMusic(direction) {
+  const currentTime = music.currentTime;
+  localStorage.setItem("currentTime", currentTime);
   musicIndex = (musicIndex + direction + songs.length) % songs.length;
   loadMusic(songs[musicIndex]);
+  localStorage.setItem("musicIndex", musicIndex);
   playMusic();
 }
 
@@ -240,6 +243,7 @@ function updateProgressBar() {
     currentTimeEl.textContent = `${formatTime(
       Math.floor(currentTime / 60)
     )}:${formatTime(Math.floor(currentTime % 60))}`;
+    localStorage.setItem("currentTime", currentTime);
   }
 }
 
@@ -247,16 +251,17 @@ function setProgressBar(e) {
   const width = playerProgress.clientWidth;
   const clickX = e.offsetX;
   music.currentTime = (clickX / width) * music.duration;
+  localStorage.setItem("currentTime", currentTimeEl);
 }
 
 function adjustVolume(e) {
   const boundingRect = volumeBar.getBoundingClientRect();
   const offsetX = e.clientX - boundingRect.left;
   const volumeLevel = Math.min(1, Math.max(0, offsetX / boundingRect.width));
-
   music.volume = volumeLevel;
   volumeRelleno.style.setProperty("--fill", volumeLevel * 100 + "%");
   volumeBolita.style.left = volumeLevel * 100 + "%";
+  localStorage.setItem("volumeLevel", volumeLevel);
 }
 
 function shuffleArray(array) {
@@ -295,12 +300,25 @@ document.addEventListener("mousemove", (e) => {
 document.addEventListener("mouseup", () => {
   isDragging = false;
 });
-// shuffleBtn.addEventListener("click", () => {
-//   shuffleArray(songs);
-//   musicIndex = 0;
-//   loadMusic(songs[musicIndex]);
-//   playMusic();
-// });
+
+document.addEventListener("DOMContentLoaded", () => {
+  const storedMusicIndex = localStorage.getItem("musicIndex");
+  const storedVolumeLevel = localStorage.getItem("volumeLevel");
+  const storedCurrentTime = localStorage.getItem("currentTime");
+  if (storedMusicIndex !== null) {
+    musicIndex = parseInt(storedMusicIndex);
+    loadMusic(songs[musicIndex]);
+    music.volume = parseFloat(storedVolumeLevel);
+    volumeRelleno.style.setProperty("--fill", storedVolumeLevel * 100 + "%");
+    volumeBolita.style.left = storedVolumeLevel * 100 + "%";
+    if (storedCurrentTime !== null) {
+      music.currentTime = parseFloat(storedCurrentTime);
+    }
+  } else {
+    loadMusic(songs[musicIndex]);
+  }
+});
+
 shuffleBtn.addEventListener("click", () => {
   isShuffleOn = !isShuffleOn;
 
