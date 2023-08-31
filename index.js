@@ -1,3 +1,5 @@
+import songs from "./songs.js";
+
 const image = document.getElementById("cover");
 const title = document.getElementById("musicTitle");
 const artist = document.getElementById("musicArtist");
@@ -10,184 +12,19 @@ const prevBtn = document.getElementById("prev");
 const nextBtn = document.getElementById("next");
 const playBtn = document.getElementById("play");
 const repeatBtn = document.getElementById("repeat");
+const guitarBtn = document.getElementById("guitar");
 const background = document.getElementById("bgImg");
 const volumeBar = document.getElementById("volumeBar");
 const volumeRelleno = document.getElementById("volumeRelleno");
 const volumeBolita = document.getElementById("volumeBolita");
+const lyricsSection = document.getElementById("lyrics");
+
 const music = new Audio();
 let isRepeatOn = false;
 let isDragging = false;
 let isShuffleOn = false;
-const songs = [
-  {
-    path: "songs/siempreunidos.mp3",
-    displayName: "Por Siempre Juntos",
-    cover: "songs/siempreunidos.jpg",
-    artist: "Ricardo Silva",
-  },
-  {
-    path: "songs/bonjovi2.mp3",
-    displayName: "Blaze of Glory",
-    cover: "songs/bonjovi2.jpg",
-    artist: "Bon Jovi",
-  },
-  {
-    path: "songs/pumpit.mp3",
-    displayName: "Pump It",
-    cover: "songs/pump.jpg",
-    artist: "The Black Eyed Peas",
-  },
-  {
-    path: "songs/nightwish.mp3",
-    displayName: "Over the Hills and Far Away",
-    cover: "songs/night.jpg",
-    artist: "Nightwish",
-  },
-  {
-    path: "songs/pokemon2000.mp3",
-    displayName: "Pokémon The Movie 2000",
-    cover: "songs/pokemon2000.jpg",
-    artist: "ALejandro P. y Daniela A.",
-  },
-  {
-    path: "songs/johto.mp3",
-    displayName: "Los Viajes Johto",
-    cover: "songs/johto.jpg",
-    artist: "Rodrigo Zea",
-  },
-  {
-    path: "songs/goldenSun.mp3",
-    displayName: "The Elemental Stars",
-    cover: "songs/goldenSun.jpg",
-    artist: "Golden Sun OST",
-  },
-  {
-    path: "songs/bonjovi.mp3",
-    displayName: "I'll Be There For You",
-    cover: "songs/bonjovii.jpg",
-    artist: "Bon Jovi",
-  },
-  {
-    path: "songs/donkeyc2.mp3",
-    displayName: "Hot Head Bop",
-    cover: "songs/dkc2.jpg",
-    artist: "David Wise",
-  },
-  {
-    path: "songs/hola.mp3",
-    displayName: "Hola!",
-    cover: "songs/Hola!.jpg",
-    artist: "PXNDX",
-  },
-  {
-    path: "songs/sonador.mp3",
-    displayName: "El Gran Soñador",
-    cover: "songs/dig3.jpg",
-    artist: "Cisar Franck",
-  },
-  {
-    path: "songs/yaloveia.mp3",
-    displayName: "Ya lo veía venir",
-    cover: "songs/mode.jpg",
-    artist: "Moderatto",
-  },
-  {
-    path: "songs/mining.mp3",
-    displayName: "Mining Melancholy",
-    cover: "songs/dkcountry.jpg",
-    artist: "David Wise",
-  },
-  {
-    path: "songs/atrapasuenos.mp3",
-    displayName: "El Atrapahumjenjos Yo Soy",
-    cover: "songs/atrapa.jpg",
-    artist: "Mägo de Oz",
-  },
-  {
-    path: "songs/digop2.mp3",
-    displayName: "Impacto Rojo",
-    cover: "songs/dig2.jpg",
-    artist: "Ricardo Silva",
-  },
-  {
-    path: "songs/coolo.mp3",
-    displayName: "Coolo",
-    cover: "songs/valderrama.jpg",
-    artist: "Illya Kuryaki & The Valderramas",
-  },
-  {
-    path: "songs/mundo.mp3",
-    displayName: "Amor Inmortal",
-    cover: "songs/maguie.jpg",
-    artist: "Maggie Vera",
-  },
-  {
-    path: "songs/digop1.mp3",
-    displayName: "Butterfly",
-    cover: "songs/cesar.jpg",
-    artist: "Cisar Franck",
-  },
-  {
-    path: "songs/bird.mp3",
-    displayName: "Blue Bird",
-    cover: "songs/blue.jpg",
-    artist: "Ikimono Gakari",
-  },
-  {
-    path: "songs/pokerap.mp3",
-    displayName: "Pokerap",
-    cover: "songs/pokerap.jpg",
-    artist: "Oscar Roa",
-  },
-  {
-    path: "songs/air.mp3",
-    displayName: "Playground Love",
-    cover: "songs/air.jpg",
-    artist: "AIR",
-  },
-  {
-    path: "songs/scotpilgrim.mp3",
-    displayName: "Black Sheep",
-    cover: "songs/scottpilgrim.jpg",
-    artist: "Brie Larson",
-  },
-  {
-    path: "songs/pelotero.mp3",
-    displayName: "Grandes Ligas",
-    cover: "songs/pelotero.jpg",
-    artist: "Lupillo, Alemán, Santa Fe Klan,Snoop Dogg",
-  },
-  {
-    path: "songs/rocket.mp3",
-    displayName: "Son Problemas",
-    cover: "songs/rocket.jpg",
-    artist: "Equipo Rocket",
-  },
-  {
-    path: "songs/msnoop.mp3",
-    displayName: "Qué Maldición",
-    cover: "songs/msnoop.jpg",
-    artist: "Banda Ms feat. Snoop Dog",
-  },
-  {
-    path: "songs/rompecabezas.mp3",
-    displayName: "Rompecabezas",
-    cover: "songs/rompecabezas.jpg",
-    artist: "Los concorde",
-  },
-  {
-    path: "songs/snakeyes.mp3",
-    displayName: "Snake Eyes",
-    cover: "songs/snakeyes.jpg",
-    artist: "Feint feat. CoMa",
-  },
-  {
-    path: "songs/crazy.mp3",
-    displayName: "Crazy",
-    cover: "songs/crazy.jpg",
-    artist: "Aerosmith",
-  },
-];
+let isGuitarOn = false;
+let currentLyricIndex = 0;
 
 let musicIndex = 0;
 let isPlaying = false;
@@ -271,11 +108,73 @@ function shuffleArray(array) {
   }
 }
 
-playBtn.addEventListener("click", togglePlay);
+playBtn.addEventListener("click", () => {
+  togglePlay();
+});
 prevBtn.addEventListener("click", () => changeMusic(-1));
 nextBtn.addEventListener("click", () => changeMusic(1));
-music.addEventListener("timeupdate", updateProgressBar);
 playerProgress.addEventListener("click", setProgressBar);
+
+music.addEventListener("timeupdate", () => {
+  updateProgressBar();
+
+  if (isPlaying) {
+    const currentSong = songs[musicIndex];
+    const lyrics = currentSong.lyrics || "Letras no disponibles.";
+    const lyricLines = lyrics.split("\n");
+
+    let currentTime = music.currentTime;
+    let displayedLyrics = "";
+    let hasTimestamps = false;
+
+    for (let i = 0; i < lyricLines.length; i++) {
+      const line = lyricLines[i];
+      if (line.trim() === "") continue;
+
+      const match = line.match(/(\d+):(\d+)\.?(\d+)?\s+(.*)/);
+      if (match) {
+        hasTimestamps = true;
+
+        const [, minute, second, millisecond] = match;
+        const timestamp = parseInt(minute) * 60 + parseInt(second);
+        if (millisecond) {
+          timestamp += parseInt(millisecond) / 1000;
+        }
+
+        if (
+          !isNaN(currentTime) &&
+          !isNaN(timestamp) &&
+          timestamp > currentTime
+        ) {
+          displayedLyrics = lyricLines
+            .slice(i)
+            .map((line, index) => {
+              if (index === 0) {
+                return `<span style="color: #ff8800;">${line.replace(
+                  /^\d+:\d+(\.\d+)?\s+/,
+                  ""
+                )}</span>`;
+              }
+              return line.replace(/^\d+:\d+(\.\d+)?\s+/, "");
+            })
+            .join("\n");
+          break;
+        }
+      }
+    }
+
+    if (!hasTimestamps) {
+      displayedLyrics = lyricLines.join("\n");
+    }
+
+    const songTitle = document.getElementById("songTitle");
+    const songText = document.getElementById("songText");
+
+    songTitle.textContent = currentSong.displayName;
+    songText.innerHTML = displayedLyrics;
+  }
+});
+
 music.addEventListener("ended", () => {
   if (isRepeatOn) {
     music.currentTime = 0;
@@ -338,4 +237,41 @@ repeatBtn.addEventListener("click", () => {
   }
 });
 
+guitarBtn.addEventListener("click", () => {
+  isGuitarOn = !isGuitarOn;
+
+  if (isGuitarOn) {
+    lyricsSection.classList.remove("hidden");
+    guitarBtn.classList.add("active");
+  } else {
+    lyricsSection.classList.add("hidden");
+    guitarBtn.classList.remove("active");
+  }
+});
+
 loadMusic(songs[musicIndex]);
+
+// async function fetchLyrics(artist, term) {
+//   const url = `https://www.stands4.com/services/v2/lyrics.php?uid=11997&tokenid=07E6iA4K2TEoQdMn&term=${encodeURIComponent(
+//     term
+//   )}&artist=${encodeURIComponent(artist)}&format=json`;
+
+//   try {
+//     const response = await fetch(url);
+//     const data = await response.json();
+//     console.log("API response:", data); // Log the API response
+//     return data.result.lyrics;
+//   } catch (error) {
+//     console.error("Error fetching lyrics:", error);
+//     return "Lyrics not available.";
+//   }
+// }
+
+// Esta es para API
+// async function displayLyrics(artist, term) {
+//   const lyrics = await fetchLyrics(artist, term);
+//   lyricsSection.innerHTML = `
+//     <h1>Letra de la canción</h1>
+//     <p>${lyrics}</p>
+//   `;
+// }

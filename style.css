@@ -15,14 +15,22 @@ body {
 }
 
 ::selection {
-  background: orange;
+  background: #ff8800;
+}
+
+.buble {
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+  align-items: center;
 }
 
 .logoHeader {
   position: fixed;
   top: 0;
   left: 0;
-  width: 100%;
+  inline-size: 100%;
+  block-size: auto;
   padding: 10px;
   z-index: 100;
 }
@@ -32,7 +40,7 @@ body {
 }
 
 .logoHeader img:hover {
-  content: url("./songs/neKiPod2.svg");
+  /* content: url("./songs/neKiPod2.svg"); */
   filter: brightness(150%);
 }
 
@@ -66,6 +74,7 @@ body {
   border-radius: 1.25rem;
   box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3);
   transition: all 0.5s ease;
+  margin-inline: 20px;
 }
 
 .wrapper:hover {
@@ -73,18 +82,20 @@ body {
 }
 
 .player-img {
-  inline-size: 18.75rem;
+  inline-size: 100%;
   block-size: 18.75rem;
   position: relative;
   inset-block-start: -3.125rem;
-  inset-inline-start: 3.125rem;
+  inset-inline-start: calc(50% - 9.375rem);
+  max-inline-size: 18.75rem;
+  max-block-size: 18.75rem;
 }
 
 .player-img img {
   object-fit: cover;
   border-radius: 20px;
-  height: 0;
-  width: 0;
+  inline-size: 100%;
+  block-size: auto;
   opacity: 0;
   box-shadow: 0 5px 30px 5px rgba(0, 0, 0, 0.5);
 }
@@ -133,6 +144,11 @@ h3 {
   block-size: 100%;
   inline-size: 0%;
   transition: width 0.1s linear;
+}
+
+.progress:hover {
+  background: rgb(202, 225, 253);
+  filter: brightness(90%);
 }
 
 .music-duration {
@@ -188,6 +204,10 @@ h3 {
   color: #ff8800;
 }
 
+.fa-guitar.active {
+  color: #ff8800;
+}
+
 .fa-solid:hover {
   filter: brightness(40%);
 }
@@ -200,9 +220,10 @@ h3 {
 
 .volumeWrapper {
   display: flex;
-  flex-direction: column;
   align-items: center;
-  margin-block-start: 0.2rem;
+  gap: 4.5rem;
+  justify-content: center;
+  margin-block-start: 0.3rem;
 }
 
 .volumeBar {
@@ -223,6 +244,11 @@ h3 {
   z-index: -1;
 }
 
+.volumeRelleno:hover {
+  background: rgb(202, 225, 253);
+  filter: brightness(90%);
+}
+
 .volumeBolita {
   background: #666;
   padding: 0;
@@ -241,6 +267,33 @@ h3 {
   filter: brightness(40%);
 }
 
+.fa-rectangle-list {
+  font-size: 20px;
+}
+
+.fa-guitar {
+  font-size: 22px;
+}
+
+.lyrics {
+  block-size: 31.5rem;
+  inline-size: 27rem;
+  margin-inline: 20px;
+  text-align: center;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 1rem;
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3);
+  background-color: rgb(24, 24, 24);
+  border-radius: 1.25rem;
+  padding-block-end: 0.5em;
+  overflow: auto;
+  line-height: 2;
+}
+
+.hidden {
+  display: none;
+}
+
 .footer {
   position: fixed;
   bottom: 0;
@@ -249,4 +302,21 @@ h3 {
   color: white;
   font-size: 14px;
   z-index: 100;
+}
+
+h1 {
+  margin: 0;
+  color: #c5d3c6;
+}
+
+.songText {
+  white-space: pre-wrap;
+  font-size: 25px;
+  overflow: auto;
+  color: rgb(202, 225, 253);
+  margin-inline: 1rem;
+}
+
+.lyrics::-webkit-scrollbar {
+  width: 0;
 }
