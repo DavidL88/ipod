@@ -5,7 +5,7 @@ const songs = [
     cover: "songs/siempreunidos.jpg",
     artist: "Ricardo Silva",
     lyrics: `
-[00:11.2] ¡Ah, sí!
+00:11 ¡Ah, sí!
 00:24 ¡Sí, sí!
 00:30 Tu amistad así, sin más,
 00:35 Desde hace tiempo tú me das.

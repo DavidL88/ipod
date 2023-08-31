@@ -147,10 +147,10 @@ music.addEventListener("timeupdate", () => {
           timestamp > currentTime
         ) {
           displayedLyrics = lyricLines
-            .slice(i)
+            // .slice(i)
             .map((line, index) => {
-              if (index === 0) {
-                return `<span style="color: #ff8800;">${line.replace(
+              if (index === i) {
+                return `<span class="actual-lyric" style="padding-top: 8px; transition:900ms color ease; color: #ff8800;">${line.replace(
                   /^\d+:\d+(\.\d+)?\s+/,
                   ""
                 )}</span>`;
@@ -158,6 +158,13 @@ music.addEventListener("timeupdate", () => {
               return line.replace(/^\d+:\d+(\.\d+)?\s+/, "");
             })
             .join("\n");
+          const $actualLyric = document.querySelector(".actual-lyric");
+          if ($actualLyric) {
+            $actualLyric.scrollIntoView({
+              behavior: "smooth",
+              block: "center",
+            });
+          }
           break;
         }
       }
