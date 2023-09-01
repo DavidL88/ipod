@@ -4,8 +4,7 @@ const songs = [
     displayName: "Por Siempre Juntos",
     cover: "songs/siempreunidos.jpg",
     artist: "Ricardo Silva",
-    lyrics: `
-00:11 ¡Ah, sí!
+    lyrics: `00:11 ¡Ah, sí!
 00:24 ¡Sí, sí!
 00:30 Tu amistad así, sin más,
 00:35 Desde hace tiempo tú me das.
@@ -366,6 +365,54 @@ Vivimos en un Mundo Pokémon
     `,
   },
   {
+    path: "songs/mevoy.mp3",
+    displayName: "Me voy",
+    cover: "songs/jvmevoy.jpg",
+    artist: "Julieta Venegas",
+    lyrics: `Porque no supiste entender a mi corazón
+Lo que había en él
+Porque no tuviste el valor de ver quién soy
+Porque no escuchas lo que está tan cerca de ti
+Sólo el ruido de afuera y yo
+Que estoy a un lado, desaparezco para ti
+No voy a llorar y decir
+Que no merezco esto
+Porque
+Es probable que
+Lo merezco, pero no lo quiero, por eso me voy
+¡Qué lástima, pero adiós!
+Me despido de ti y me voy
+¡Qué lástima, pero adiós!
+Me despido de ti
+Porque sé que me espera algo mejor
+Alguien que sepa darme amor
+De ese que endulza la sal y hace que salga el sol
+Yo qué pensé
+Nunca me iría de ti, que es amor del bueno, de toda la vida
+Pero, hoy entendí que no hay suficiente para los dos
+No voy a llorar y decir
+Que no merezco esto
+Porque
+Es probable que
+Lo merezco, pero no lo quiero por eso me voy
+¡Qué lástima, pero adiós!
+Me despido de ti y me voy
+¡Qué lástima, pero adiós!
+Me despido de ti
+I-i-i, i-i-i-i (Ah-ah)
+I-i-i, i-i-i-i
+Me voy
+¡Qué lástima, pero adiós!
+Me despido de ti y me voy
+¡Qué lástima, pero adiós!
+Me despido de ti y me voy
+¡Qué lástima, pero adiós!
+Me despido de ti y me voy
+¡Qué lástima, pero adiós!
+Me despido de ti y me voy
+    `,
+  },
+  {
     path: "songs/johto.mp3",
     displayName: "Los Viajes Johto",
     cover: "songs/johto.jpg",
@@ -441,10 +488,137 @@ Pokémon Johto
     `,
   },
   {
+    path: "songs/primermillon.mp3",
+    displayName: "Mi primer millón",
+    cover: "songs/primermillon.jpg",
+    artist: "Bacilos",
+    lyrics: `Yo solo quiero pegar en la radio
+Yo solo quiero pegar en la radio
+Estoy ya cansado de estar endeudado
+De verte sufriendo por cada centavo
+Dejémoslo todo y vámonos para Miami
+Voy a lo que voy, a volverme famoso
+A la vida de artista, a vivir de canciones
+Vender ilusiones que rompan diez mil corazones
+Yo solo quiero pegar en la radio
+Para ganar mi primer millón
+Para comprarte una casa grande
+En donde quepa tu corazón
+Yo solo quiero que la gente cante
+Por todos lados esta canción
+Desde San Juan hasta Barranquilla
+Desde Sevilla hasta Nueva York
+Oh-oh-oh, oh
+Oh-oh-oh, oh
+Oh-oh-oh, oh
+Oh-oh-oh, oh
+Yo te repito que (oh-oh-oh, oh)
+Me van a escuchar (oh-oh-oh, oh)
+En la radio, en la televisión (oh-oh-oh, oh)
+Y así será mi primer millón (oh-oh-oh, oh)
+Apenas lleguemos, llamamos a Emilio
+Yo tengo un amigo, amigo de un amigo
+Con línea directa al cielo de tantas estrellas
+Después andaremos de aquí para allá
+Con Paulina Rubio y Alejandro Sanz
+Tranquila, querida, Paulina solo es una amiga
+Yo solo quiero pegar en la radio
+Para ganar mi primer millón
+Para comprarte una casa grande
+En donde quepa tu corazón
+Yo solo quiero que la gente cante
+Por todos lados esta canción
+Desde Kabul hasta Curaçao
+Desde El Callao hasta Panamá
+Yo solo quiero pegar en la radio
+Para ganar mi primer millón
+Para comprarte una casa grande
+En donde quepa tu corazón
+Yo solo quiero que la gente cante
+Por todos lados esta canción
+De Guayaquil a Santo Domingo
+Desde Tijuana hasta Salvador
+Oh-oh-oh, oh
+Oh-oh-oh, oh
+Oh-oh-oh, oh
+Oh-oh-oh, oh
+Oh-oh-oh, oh
+Échale pa'lante
+O échale pa' allá
+Que echa pa' delante, echa pa' delante
+Y echa pa' delante, y echa pa' delante (oh-oh-oh, oh)
+Ya quiero salir de esta bicicleta (oh-oh-oh, oh)
+Salir a rumbear sin pensar en la cuenta (oh-oh-oh, oh)
+Comprarte un vestido de Óscar de la Renta (oh-oh-oh, oh)
+Tranquila, que ahí viene mi primer millón, y como digo yo
+Yo solo quiero pegar en la radio
+Yo solo quiero pegar en la radio
+Yo solo quiero pegar en la radio
+Yo solo quiero pegar en la radio
+Yo solo quiero pegar en la radio
+Para ganar mi primer millón
+Para comprarte una casa grande
+En donde quepa tu corazón
+Yo solo quiero que la gente cante
+Por todos lados esta canción
+Desde San Juan hasta Barranquilla
+Desde Madrid hasta Nueva York
+Yo solo quiero pegar en la radio
+Para ganar mi primer millón
+Para comprarte una casa grande
+En donde quepa tu corazón
+    `,
+  },
+  {
     path: "songs/goldenSun.mp3",
     displayName: "The Elemental Stars",
     cover: "songs/goldenSun.jpg",
     artist: "Golden Sun OST",
+  },
+  {
+    path: "songs/rbdsalvame.mp3",
+    displayName: "Sálvame",
+    cover: "songs/rbdsalvame.jpg",
+    artist: "RBD",
+    lyrics: `Extrañarte es mi necesidad
+Vivo en la desesperanza
+Desde que tú ya no vuelves más
+Sobrevivo por pura ansiedad
+Con el nudo en la garganta
+Y es que no te dejo de pensar
+Poco a poco el corazón
+Va perdiendo la fe
+Perdiendo la voz
+Sálvame de la soledad
+(Sálvame del hastío)
+Estoy hecho a tu voluntad
+(Sálvame del olvido)
+Sálvame de la oscuridad
+(Sálvame del hastío)
+No me dejes caer jamás
+Me propongo tanto continuar
+Pero amor es la palabra
+Que me cuesta a veces olvidar
+Sobrevivo por pura ansiedad
+Con el nudo en la garganta
+Y es que no te dejo de pensar
+Poco a poco el corazón
+Va perdiendo la fe
+Perdiendo la voz
+Sálvame de la soledad
+(Sálvame del hastío)
+Estoy hecho a tu voluntad
+(Sálvame del olvido)
+Sálvame de la oscuridad
+(Sálvame del hastío)
+No me dejes caer jamás
+Sálvame de la soledad
+(Sálvame del hastío)
+Estoy hecho a tu voluntad
+(Sálvame del olvido)
+Sálvame de la oscuridad
+(Sálvame del hastío)
+No me dejes caer jamás`,
   },
   {
     path: "songs/bonjovi.mp3",
@@ -523,6 +697,606 @@ Pokémon Johto
     displayName: "Hot Head Bop",
     cover: "songs/dkc2.jpg",
     artist: "David Wise",
+  },
+  {
+    path: "songs/masterofpuppets.mp3",
+    displayName: "Master of Puppets",
+    cover: "songs/masterofpuppets.jpg",
+    artist: "Metallica",
+    lyrics: `End of passion play, crumbling away
+I'm your source of self-destruction
+Veins that pump with fear, sucking darkest clear
+Leading on your death's construction
+Taste me, you will see
+More is all you need
+Dedicated to
+How I'm killing you
+Come crawling faster
+Obey your master
+Your life burns faster
+Obey your master, master
+Master of puppets, I'm pulling your strings
+Twisting your mind and smashing your dreams
+Blinded by me, you can't see a thing
+Just call my name, 'cause I'll hear you scream
+Master, master
+Just call my name, 'cause I'll hear you scream
+Master, master
+Needlework the way, never you betray
+Life of death becoming clearer
+Pain monopoly, ritual misery
+Chop your breakfast on a mirror
+Taste me, you will see
+More is all you need
+Dedicated to
+How I'm killing you
+Come crawling faster
+Obey your master
+Your life burns faster
+Obey your master, master
+Master of puppets, I'm pulling your strings
+Twisting your mind and smashing your dreams
+Blinded by me, you can't see a thing
+Just call my name, 'cause I'll hear you scream
+Master, master
+Just call my name, 'cause I'll hear you scream
+Master, master (master)
+Where's the dreams that I've been after?
+(Master, master)
+You promised only lies
+(Laughter, laughter)
+All I hear or see is laughter
+(Laughter, laughter)
+Laughing at my cries
+Fix me!
+Hell is worth all that, natural habitat
+Just a rhyme without a reason
+Never-ending maze, drift on numbered days
+Now your life is out of season
+I will occupy
+I will help you die
+I will run through you
+Now I rule you too
+Come crawling faster
+Obey your master
+Your life burns faster
+Obey your master, master
+Master of puppets, I'm pulling your strings
+Twisting your mind and smashing your dreams
+Blinded by me, you can't see a thing
+Just call my name, 'cause I'll hear you scream
+Master, master
+Just call my name, 'cause I'll hear you scream
+Master, master`,
+  },
+  {
+    path: "songs/imbecoming.mp3",
+    displayName: "Becoming Insane",
+    cover: "songs/imbecoming.jpg",
+    artist: "Infected Mushroom",
+    lyrics: `Dime todo lo que paso
+No me di cuenta ni quien me pego
+Todo da vueltas como un carrusel
+Locura recorre todita mi piel
+...
+Wake me up before I change again
+Remind me the story that I won't get insane
+Tell me why it's always the same
+Explain me the reason why I'm so much in pain
+..
+(x2):
+Before I change again...
+Remind me the story that I won't get insane
+Before I change again...
+Remind me the story that I won't get insane
+..
+(x2):
+Voy perdiendo, perdiendo
+Voy perdiendo, perdiendo
+Voy perdiendo, perdiendo
+Voy perdiendo, perdiendo
+..
+Voy perdiendo el suelo...
+I'm becoming Insane.
+..
+(x12):
+Insane, Insane, Insane, Insane, Insane, I'm Becoming Insane!!!`,
+  },
+  {
+    path: "songs/americanidiot.mp3",
+    displayName: "American Idiot",
+    cover: "songs/americanidiot.jpg",
+    artist: "Green Day",
+    lyrics: `Don't wanna be an American idiot
+Don't want a nation under the new media
+And can you hear the sound of hysteria?
+The subliminal mindfuck America
+Welcome to a new kind of tension
+All across the alien nation
+Where everything isn't meant to be okay
+In television dreams of tomorrow
+We're not the ones who're meant to follow
+For that's enough to argue
+Well, maybe I'm the faggot, America
+I'm not a part of a redneck agenda
+Now everybody, do the propaganda
+And sing along to the age of paranoia
+Welcome to a new kind of tension
+All across the alien nation
+Where everything isn't meant to be okay
+In television dreams of tomorrow
+We're not the ones who're meant to follow
+For that's enough to argue
+Don't wanna be an American idiot
+One nation controlled by the media
+Information age of hysteria
+It's calling out to idiot America
+Welcome to a new kind of tension
+All across the alien nation
+Where everything isn't meant to be okay
+In television dreams of tomorrow
+We're not the ones who're meant to follow
+For that's enough to argue`,
+  },
+  {
+    path: "songs/emeraldsword.mp3",
+    displayName: "Emerald Sword",
+    cover: "songs/emeraldsword.jpg",
+    artist: "Rhapsody",
+    lyrics: `I crossed the valleys the dust of midlands
+To search for the third key to open the gates
+Now I'm near the altar the secret inside
+As legend told my beloved sunlight the dragon's eyes
+On the way to the glory I'll honor my sword
+To serve right ideals and justice for all
+Finally, happened the sun lit their eyes
+The spell was creating strange games of light
+Thanks to hidden mirrors I found my lost way
+Over the stone I reached the place it was a secret cave
+In a long bloody battle that prophecies told
+The light will prevail hence wisdom is gold
+For the king for the land for the mountains
+For the green valleys where dragons fly
+For the glory the power to win the black lord
+I will search for the emerald sword
+Only a warrior with a clear heart
+Could have the honour to be kissed by the sun
+Yes, I am that warrior, I followed my way
+Led by the force of cosmic souls I can reach the sword
+On the way to the glory, I'll honor my sword
+To serve right ideals and justice for all
+For the king for the land for the mountains
+For the green valleys where dragons fly
+For the glory the power to win the black lord
+I will search for the emerald sword
+For the king for the land for the mountains
+For the green valleys where dragons fly
+For the glory the power to win the black lord
+I will search for the emerald sword
+For the king for the land for the mountains
+For the green valleys where dragons fly
+For the glory the power to win the black lord
+I will search for the emerald sword
+For the king for the land for the mountains
+For the green valleys where dragons fly
+For the glory the power to win the black lord
+I will search for the emerald sword
+`,
+  },
+  {
+    path: "songs/fireandflames.mp3",
+    displayName: "Through the Fire and Flames",
+    cover: "songs/fireandflames.jpg",
+    artist: "DragonForce",
+    lyrics: `On a cold winter morning, in the time before the light
+In flames of death's eternal reign, we ride towards the fight
+When the darkness has fallen down, and the times are tough all right
+The sound of evil laughter falls around the world tonight
+Fighting hard, fighting on for the steel, through the wastelands evermore
+The scattered souls will feel the hell, bodies wasted on the shores
+On the blackest plains in hell's domain, we watch them as they go
+In fire and pain, now once again, we know
+So now we fly ever free
+We're free before the thunderstorm
+On towards the wilderness, our quest carries on
+Far beyond the sundown, far beyond the moonlight
+Deep inside our hearts and all our souls
+So far away, we wait for the day
+For the lives all so wasted and gone
+We feel the pain of a lifetime lost in a thousand days
+Through the fire and the flames, we carry on
+As the red day is dawning
+And the lightning cracks the sky
+They'll raise their hands to the heavens above
+With resentment in their eyes
+Running back through the mid-morning light
+There's a burning in my heart
+We're banished from a time in a fallen land
+To a life beyond the stars
+In your darkest dreams see to believe
+Our destiny this time
+And endlessly we'll all be free tonight
+And on the wings of a dream, so far beyond reality
+All alone in desperation, now the time has gone
+Lost inside, you'll never find, lost within my own mind
+Day after day this misery must go on
+So far away, we wait for the day
+For the lives all so wasted and gone
+We feel the pain of a lifetime lost in a thousand days
+Through the fire and the flames, we carry on
+Whoa-oh-oh, whoa-oh-oh, whoa-oh-oh-oh-oh
+Whoa-oh-oh, whoa-oh-oh, whoa-oh-oh-oh-oh
+Now here we stand with their blood on our hands
+We fought so hard, now can we understand?
+I'll break the seal of this curse if I possibly can
+For freedom of every man
+So far away, we wait for the day
+For the lives all so wasted and gone
+We feel the pain of a lifetime lost in a thousand days
+Through the fire and the flames, we carry on
+`,
+  },
+  {
+    path: "songs/teenspirit.mp3",
+    displayName: "Smells Like a Teen Spirit",
+    cover: "songs/teenspirit.jpg",
+    artist: "Nirvana",
+    lyrics: `Load up on guns, bring your friends
+It's fun to lose and to pretend
+She's over-bored and self-assured
+Oh no, I know a dirty word
+Hello, hello, hello, how low
+Hello, hello, hello, how low
+Hello, hello, hello, how low
+Hello, hello, hello
+With the lights out, it's less dangerous
+Here we are now, entertain us
+I feel stupid, and contagious
+Here we are now, entertain us
+A mulatto, an albino
+A mosquito, my libido
+Yeah, hey, yay
+I'm worse at what I do best
+And for this gift, I feel blessed
+Our little group has always been
+And always will until the end
+Hello, hello, hello, how low
+Hello, hello, hello, how low
+Hello, hello, hello, how low
+Hello, hello, hello
+With the lights out, it's less dangerous
+Here we are now, entertain us
+I feel stupid, and contagious
+Here we are now, entertain us
+A mulatto, an albino
+A mosquito, my libido
+Yeah, hey, yay
+And I forget, just why I taste
+Oh yeah, I guess it makes me smile
+I found it hard, it's hard to find
+Oh well, whatever, never mind
+Hello, hello, hello, how low?
+Hello, hello, hello, how low?
+Hello, hello, hello, how low?
+Hello, hello, hello
+With the lights out, it's less dangerous
+Here we are now, entertain us
+I feel stupid, and contagious
+Here we are now, entertain us
+A mulatto, an albino
+A mosquito, my libido
+A denial, a denial
+A denial, a denial
+A denial, a denial
+A denial, a denial
+A denial
+`,
+  },
+  {
+    path: "songs/chopsuey.mp3",
+    displayName: "Chop Suey!",
+    cover: "songs/chopsuey.jpg",
+    artist: "System of a Down",
+    lyrics: `Wake up (wake up)
+Grab a brush and put a little make-up
+Hide the scars to fade away the shake-up (hide the scars to fade away the-)
+Why'd you leave the keys upon the table?
+Here you go create another fable, you wanted to
+Grab a brush and put a little make-up, you wanted to
+Hide the scars to fade away the shake-up, you wanted to
+Why'd you leave the keys upon the table? You wanted to
+I don't think you trust
+In my self-righteous suicide
+I cry when angels deserve to die
+Wake up (wake up)
+Grab a brush and put a little make-up
+Hide the scars to fade away the (hide the scars to fade away the shake-up)
+Why'd you leave the keys upon the table?
+Here you go create another fable, you wanted to
+Grab a brush and put a little make-up, you wanted to
+Hide the scars to fade away the shake-up, you wanted to
+Why'd you leave the keys upon the table? You wanted to
+I don't think you trust
+In my self-righteous suicide
+I cry when angels deserve to die
+In my self-righteous suicide
+I cry when angels deserve to die
+Father (father)
+Father (father)
+Father (father)
+Father (father)
+Father, into your hands I commend my spirit
+Father, into your hands
+Why have you forsaken me?
+In your eyes forsaken me
+In your thoughts forsaken me
+In your heart forsaken me, oh
+Trust in my self-righteous suicide
+I cry when angels deserve to die
+In my self-righteous suicide
+I cry when angels deserve to die
+`,
+  },
+  {
+    path: "songs/thunderstruck.mp3",
+    displayName: "Thunderstruck",
+    cover: "songs/thunderstruck.jpg",
+    artist: "AC/DC",
+    lyrics: `Thunder, thunder, thunder, thunder
+Thunder, thunder, thunder, thunder
+Thunder, thunder
+I was caught
+In the middle of a railroad track (thunder)
+I looked 'round
+And I knew there was no turning back (thunder)
+My mind raced
+And I thought, what could I do? (Thunder)
+And I knew
+There was no help, no help from you (thunder)
+Sound of the drums
+Beating in my heart
+The thunder of guns
+Tore me apart
+You've been
+Thunderstruck
+Rode down the highway
+Broke the limit, we hit the town
+Went through to Texas, yeah, Texas, and we had some fun
+We met some girls
+Some dancers who gave a good time
+Broke all the rules
+Played all the fools
+Yeah, yeah, they, they, they blew our minds
+And I was shaking at the knees
+Could I come again, please?
+Yeah, them ladies were too kind
+You've been
+Thunderstruck, thunderstruck
+Yeah, yeah, yeah, thunderstruck
+Ooh, thunderstruck, yeah
+I was shaking at the knees
+Could I come again, please? Oh
+Thunderstruck, thunderstruck
+Yeah, yeah, yeah, thunderstruck, thunderstruck
+Yeah, yeah, yeah, said, yeah, it's alright, we're doin' fine
+Yeah, it's alright, we're doin' fine, fine, fine
+Thunderstruck, yeah, yeah, yeah
+Thunderstruck, thunderstruck
+Thunderstruck, whoa, baby, baby
+Thunderstruck, you've been thunderstruck
+Thunderstruck, thunderstruck
+Thunderstruck, you've been thunderstruck
+`,
+  },
+  {
+    path: "songs/childomine.mp3",
+    displayName: "Sweet Child O' Mine",
+    cover: "songs/childomine.jpg",
+    artist: "Guns N' Roses",
+    lyrics: `She's got a smile that it seems to me
+Reminds me of childhood memories
+Where everything was as fresh as the bright blue sky
+Now and then when I see her face
+She takes me away to that special place
+And if I stare too long, I'd probably break down and cry
+Whoa, oh, oh
+Sweet child o' mine
+Whoa, oh, oh, oh
+Sweet love of mine
+She's got eyes of the bluest skies
+As if they thought of rain
+I'd hate to look into those eyes and see an ounce of pain
+Her hair reminds me of a warm safe place
+Where as a child I'd hide
+And pray for the thunder and the rain to quietly pass me by
+Whoa, oh, oh
+Sweet child o' mine
+Whoa whoa, oh, oh, oh
+Sweet love of mine
+Whoa, yeah
+Whoa, oh, oh, oh
+Sweet child o' mine
+Whoa, oh, whoa, oh
+Sweet love of mine
+Whoa, oh, oh, oh
+Sweet child o' mine
+Ooh, yeah
+Ooh, sweet love of mine
+Where do we go?
+Where do we go now?
+Where do we go?
+Ooh, oh, where do we go?
+Where do we go now?
+Oh, where do we go now?
+Where do we go? (Sweet child)
+Where do we go now?
+Ay, ay, ay, ay, ay, ay, ay, ay
+Where do we go now?
+Ah, ah
+Where do we go?
+Oh, where do we go now?
+Oh, where do we go?
+Oh, where do we go now?
+Where do we go?
+Oh, where do we go now?
+Now, now, now, now, now, now, now
+Sweet child
+Sweet child of mine
+`,
+  },
+  {
+    path: "songs/kiss.mp3",
+    displayName: "I Was Made for Lovin' You",
+    cover: "songs/kiss.jpg",
+    artist: "Kiss",
+    lyrics: `Mmm, yeah!
+Tonight, I want to give it all to you
+In the darkness, there's so much I want to do
+And tonight, I want to lay it at your feet
+'Cause girl, I was made for you
+And girl, you were made for me
+I was made for lovin' you, baby
+You were made for lovin' me
+And I can't get enough of you, baby
+Can you get enough of me?
+Tonight, I want to see it in your eyes
+Feel the magic, there's something that drives me wild
+And tonight, we're gonna make it all come true
+'Cause girl, you were made for me
+And girl, I was made for you
+I was made for lovin' you, baby
+You were made for lovin' me
+And I can't get enough of you, baby
+Can you get enough of me?
+I was made for lovin' you, baby
+You were made for lovin' me
+And I can give it all to you, baby
+Can you give it all to me?
+Oh, can't get enough
+I can't get enough
+I can't get enough
+I was made for lovin' you, baby
+You were made for lovin' me
+And I can't get enough of you, baby
+Can you get enough of me?
+Oh, I was made
+You were made
+I can't get enough
+No, I can't get enough
+I was made for lovin' you, baby
+You were made for lovin' me
+And I can't get enough of you, baby
+Can you get enough of me?
+`,
+  },
+  {
+    path: "songs/sheisamaniac.mp3",
+    displayName: "Maniac",
+    cover: "songs/sheisamaniac.jpg",
+    artist: "Michael Sembello",
+    lyrics: `Just a steel town girl on a Saturday night
+Lookin' for the fight of her life
+In the real-time world no one sees her at all
+They all say she's crazy
+Locking rhythms to the beat of her heart
+Changing movement into light
+She has danced into the danger zone
+When the dancer becomes the dance
+It can cut you like a knife, if the gift becomes the fire
+On a wire between will and what will be
+She's a maniac, maniac on the floor
+And she's dancing like she's never danced before
+She's a maniac, maniac on the floor
+And she's dancing like she's never danced before
+On the ice-blue line of insanity is a place most never see
+It's a hard-won place of mystery touch it, but can't hold it
+You work all your life for that
+Moment in time, it could come or pass you by
+It's a push-shove world, but there's always a chance
+If the hunger stays the night
+There's a cold kinetic heat, struggling, stretching for the beat
+Never stopping with her head against the wind
+She's a maniac, maniac, I sure know
+And she's dancing like she's never danced before
+She's a maniac, maniac, I sure know
+And she's dancing like she's never danced before
+It can cut you like a knife, if the gift becomes the fire
+On a wire between will and what will be
+She's a maniac, maniac, I sure know (I sure know)
+And she's dancing like she's never danced before
+She's a maniac, maniac, I sure know
+And she's dancing like she's never danced before
+Maniac, maniac, I sure know
+And she's dancing like she's never danced before
+She's a maniac, maniac, I sure know (I sure know)
+And she's dancing like she's never danced before
+`,
+  },
+  {
+    path: "songs/dawnofvictory.mp3",
+    displayName: "Dawn of Victory",
+    cover: "songs/dawnofvictory.jpg",
+    artist: "Rhapsody",
+    lyrics: `Fire is raging on the battlefield
+While Arwald is fighting
+The war of the kings
+The army of Dargor
+The thunder, the storm
+So people are calling
+The brave and his sword
+No time left to save the wise throne!
+
+Shades of a past
+Not so far to forget
+The rise of the demons
+From their bloody hell!
+So come mighty warrior
+To light the last hope
+For Tharos the dragon
+And your cosmic soul
+Now handle your emerald sword!
+
+For Ancelot
+The ancient cross of war
+For the holy town of gods
+Gloria, gloria perpetua
+In this Dawn of Victory
+
+The ride of the dead
+And their practice of pain
+Is pounding in him
+As a terrific quake
+You're closer and closer
+Now follow the smell
+With your holy armor
+And the steel in your hand
+Fly angel of bloody revenge!
+
+For Ancelot
+The ancient cross of war
+For the holy town of gods
+Gloria, gloria perpetua
+In this Dawn of Victory
+
+Tragic and furious the clash
+Of the steel of the gods
+That so magic the power
+The sword in his valorous hands
+Oceans of fire are blasting
+The throne of the demons
+And from distant red skies
+And thunders are calling his name
+The name of the master of pain
+
+For Ancelot
+The ancient cross of war
+For the holy town of gods
+Gloria, gloria perpetua
+In this Dawn of Victory
+
+Gloria, gloria perpetua
+In this Dawn of Victory!
+`,
   },
   {
     path: "songs/hola.mp3",
@@ -928,11 +1702,9 @@ Esto es mas fuerte porque es amor inmortal.
 04:14 ho mi amoooooor.
 🎵 🎵 🎵
 
-
-
-
 lyrics por: 
 vomistream 🍄💀
+
     `,
   },
   {
@@ -940,8 +1712,7 @@ vomistream 🍄💀
     displayName: "Blue Bird",
     cover: "songs/blue.jpg",
     artist: "Ikimono Gakari",
-    lyrics: `
-00:03 habatai tara
+    lyrics: `00:03 habatai tara
 00:07 modoranai to itte
 00:09 mezashita no wa
 00:15 aoi aoi ano sora
@@ -1008,11 +1779,42 @@ vomistream 🍄💀
 03:43 🎵 🎵 🎵
 
 
-
-
-
 lyrics por: 
 vomistream 🍄💀
+
+    `,
+  },
+  {
+    path: "songs/betweenbars.mp3",
+    displayName: "Between Bars",
+    cover: "songs/betweenbars.jpg",
+    artist: "Elliot Smith",
+    lyrics: `Drink up baby, stay up all night
+With the things you could do
+You won't but you might
+The potential you'll be that you'll never see
+The promises you'll only make
+Drink up with me now
+And forget all about the pressure of days
+Do what I say and I'll make you okay
+And drive them away
+The images stuck in your head
+People you've been before
+That you don't want around anymore
+That push and shove and won't bend to your will
+I'll keep them still
+Drink up baby, look at the stars
+I'll kiss you again, between the bars
+Where I'm seeing you there with your hands in the air
+Waiting to finally be caught
+Drink up one more time, and I'll make you mine
+Keep you apart, deep in my heart
+Separate from the rest, where I like you the best
+And keep the things you forgot
+People you've been before
+That you don't want around anymore
+That push and shove and won't bend to your will
+I'll keep them still
     `,
   },
   {
@@ -1118,9 +1920,6 @@ vomistream 🍄💀
 02:58 ¡Atrápalos ya!
 02:59 ¡Pokémon!
 03:00 🎵 🎵 🎵
-
-
-
 
 
 lyrics por: 
@@ -1474,6 +2273,58 @@ Es una telenovela
     `,
   },
   {
+    path: "songs/rbdsilencio.mp3",
+    displayName: "Solo Quedate en Silencio",
+    cover: "songs/rbdsilencio.jpg",
+    artist: "RBD",
+    lyrics: `Te encuentro, despierto
+Me dices: "lo siento"
+Con una lágrima derramas
+Me abrazas, me hielo
+Me pides un beso
+Y yo me quedo sin respirar
+Solo espero un momento
+Solo dime
+"No es cierto"
+Solo quédate en silencio (cinco minutos)
+Acaríciame un momento (ven junto a mí)
+Te daré el último beso (el más profundo)
+Guardaré mis sentimientos
+Y me iré lejos de ti
+De ti, oh-oh-oh, oh-oh
+Tengo tanto miedo
+Y es que no comprendo
+¿Qué fue lo que yo he hecho mal? (¿qué he hecho mal?)
+Me abrazas, me hielo
+Me pides un beso
+Y yo me quedo sin respirar
+Solo espera un momento (un momento)
+Solo dime
+"No es cierto"
+Solo quédate en silencio (cinco minutos)
+Acaríciame un momento (ven junto a mí)
+Te daré el último beso (el más profundo)
+Guardaré mis sentimientos
+Y me iré lejos de ti
+Dame tu mano
+Devuélveme el aire
+Di que me amas
+Que no eres culpable
+Por lo menos un momento
+Dime que esto no es cierto
+Solo quédate en silencio
+Acaríciame un momento
+Te daré el último beso
+Guardaré mis sentimientos
+Y me iré lejos de ti
+Solo quédate en silencio (cinco minutos)
+Acaríciame un momento (ven junto a mí)
+Te daré el último beso (el más profundo)
+Guardaré mis sentimientos
+Y me iré lejos de ti
+    `,
+  },
+  {
     path: "songs/snakeyes.mp3",
     displayName: "Snake Eyes",
     cover: "songs/snakeyes.jpg",
@@ -1550,6 +2401,378 @@ Ow, yeah, yeah, yeah, yeah, yeah
 Yeah, yeah, yeah, yeah, yeah
 Yeah, yeah, yeah, yeah
 Yeah, now baby, baby, baby, baby`,
+  },
+  {
+    path: "songs/dualipalev.mp3",
+    displayName: "Levitating",
+    cover: "songs/dualipalev.jpg",
+    artist: "Dualipa",
+    lyrics: `If you wanna run away with me, I know a galaxy
+And I can take you for a ride
+I had a premonition that we fell into a rhythm
+Where the music don't stop for life
+Glitter in the sky, glitter in my eyes
+Shining just the way I like
+If you're feeling like you need a little bit of company
+You met me at the perfect time
+You want me, I want you, baby
+My sugarboo, I'm levitating
+The Milky Way, we're renegading
+Yeah, yeah, yeah, yeah, yeah
+I got you, moonlight, you're my starlight
+I need you all night, come on, dance with me
+I'm levitating
+You, moonlight, you're my starlight (you're the moonlight)
+I need you all night, come on, dance with me
+I'm levitating
+I believe that you're for me, I feel it in our energy
+I see us written in the stars
+We can go wherever, so let's do it now or never, baby
+Nothing's ever, ever too far
+Glitter in the sky, glitter in our eyes
+Shining just the way we are
+I feel like we're forever, every time we get together
+But whatever, let's get lost on Mars
+You want me, I want you, baby
+My sugarboo, I'm levitating
+The Milky Way, we're renegading
+Yeah, yeah, yeah, yeah, yeah
+I got you, moonlight, you're my starlight
+I need you all night, come on, dance with me
+I'm levitating
+You, moonlight, you're my starlight (you're the moonlight)
+I need you all night, come on, dance with me
+I'm levitating (whoo)
+You can fly away with me tonight
+You can fly away with me tonight
+Baby, let me take you for a ride
+Yeah, yeah, yeah, yeah, yeah
+I'm levitating (whoo)
+You can fly away with me tonight
+You can fly away with me tonight
+Baby, let me take you for a ride
+Yeah, yeah, yeah, yeah, yeah (whoo)
+My love is like a rocket, watch it blast off
+And I'm feeling so electric, dance my arse off
+And even if I wanted to, I can't stop
+Yeah, yeah, yeah, yeah, yeah
+My love is like a rocket, watch it blast off
+And I'm feeling so electric, dance my arse off
+And even if I wanted to, I can't stop
+Yeah, yeah, yeah, yeah, yeah
+You want me, I want you, baby
+My sugarboo, I'm levitating
+The Milky Way, we're renegading
+I got you (yeah), moonlight, you're my starlight
+I need you all night (all night), come on, dance with me
+I'm levitating (whoo)
+You can fly away with me tonight (tonight)
+You can fly away with me tonight
+Baby, let me take you for a ride
+Yeah, yeah, yeah, yeah, yeah (take you for a ride)
+I'm levitating (whoo)
+You can fly away with me tonight (tonight)
+You can fly away with me tonight
+Baby, let me take you for a ride
+Yeah, yeah, yeah, yeah, yeah (let me take you for a ride)
+I got you, moonlight, you're my starlight (you are my starlight)
+I need you all night, come on, dance with me (come on, dance with me, baby)
+I'm levitating
+You, moonlight, you're my starlight (you're the moonlight)
+I need you all night, come on, dance with me
+I'm levitating`,
+  },
+  {
+    path: "songs/dualipabmh.mp3",
+    displayName: "Break My Hearth",
+    cover: "songs/dualipabmh.jpg",
+    artist: "Dualipa",
+    lyrics: `I've always been the one to say the first goodbye
+Had to love and lose a hundred million times
+Had to get it wrong to know just what I like
+Now I'm fallin'
+You say my name like I have never heard before
+I'm indecisive but this time I know for sure
+I hope I'm not the only one that feels it all
+Are you fallin'?
+Center of attention
+You know you can get whatever you want from me
+Whenever you want it, baby
+It's you in my reflection
+Now I'm afraid of all the things it could do to me
+If I would've known it, baby
+I would've stayed at home
+'Cause I was doin' better alone
+But when you said, "Hello"
+I know that was the end of it all
+I should've stayed at home
+'Cause now there ain't no letting you go
+Am I falling in love
+With the one that could break my heart?
+Oh no, I was doin' better alone
+But when you said, "Hello"
+I know that was the end of it all
+I should've stayed at home
+'Cause now there ain't no letting you go
+Am I falling in love
+With the one that could break my heart?
+I wonder when you go, if I stay on your mind
+Two can play that game, but you win me every time
+Everyone before you was a waste of time
+Yeah, you got me
+Center of attention
+You know you can get whatever you want from me
+Whenever you want it, baby
+It's you in my reflection
+Now I'm afraid of all the things it could do to me
+If I would've known it, baby
+I would've stayed at home
+'Cause I was doin' better alone
+But when you said, "Hello"
+I know that was the end of it all
+I should've stayed at home
+'Cause now there ain't no letting you go
+Am I falling in love
+With the one that could break my heart?
+Oh no, I was doin' better alone
+But when you said, "Hello"
+I know that was the end of it all
+I should've stayed at home
+'Cause now there ain't no letting you go
+Am I falling in love
+With the one that could break my heart?
+Ooh, break my heart
+Ooh, break my heart
+Ooh
+Am I falling in love
+With the one that could break my heart?
+I would've stayed at home
+'Cause I was doin' better alone
+But when you said, "Hello"
+I know that was the end of it all
+I should've stayed at home
+'Cause now there ain't no letting you go
+Am I falling in love
+With the one that could break my heart?
+Oh no, I was doin' better alone
+But when you said, "Hello"
+I know that was the end of it all
+I should've stayed at home
+'Cause now there ain't no letting you go
+Am I falling in love
+With the one that could break my heart?`,
+  },
+  {
+    path: "songs/caraluna.mp3",
+    displayName: "Caraluna",
+    cover: "songs/caraluna.jpg",
+    artist: "Bacilos",
+    lyrics: `¿Quién dice que no duelen
+Las huellas en la arena?
+Tu huella el mar se la llevó
+Pero la luna sigue ahí
+Pero esa luna es mi condena
+Despacio en la mañana
+A gritos por la noche
+Las voces vivas del recuerdo se disfrazan de intuición
+Y en una voz tu voz se esconde
+Y en una voz tu voz se esconde
+Y yo sé que tal vez
+Tú nunca escuches mi canción, yo sé
+Y yo sé que tal vez
+Te siga usando así, robándote mi inspiración
+Mientras siga viendo tu cara en la cara de la luna
+Mientras siga escuchando tu voz
+Entre las olas, entre la espuma
+Mientras tenga que cambiar la radio de estación
+Porque cada canción me hable de ti, de ti, de ti
+Me hable de ti
+La vida se me esconde
+Detrás de una promesa sin cumplir
+De donde nace alguna inspiración, de donde nace otra canción
+Y ya no sé bien quién se esconde
+Yo ya no sé lo que se esconde
+Y yo sé que tal vez
+Tú nunca escuches mi canción, yo sé
+Y yo sé que tal vez
+Te siga usando a ti robándote mi inspiración
+Mientras siga viendo tu cara en la cara de la luna
+Mientras siga escuchando tu voz
+Entre las olas, entre la espuma
+Mientras tenga que cambiar la radio de estación
+Porque cada canción me hable de ti, de ti, de ti
+Mientras siga viendo tu cara en la cara de la luna
+Mientras siga escuchando tu voz
+Entre las olas, entre la espuma
+Mientras tenga que cambiar la radio de estación
+Porque cada canción me hable de ti, de ti, de ti
+Yo seguiré buscando
+O seguiré escapando
+Tal vez de ti, tal vez de mí
+Yo seguiré buscándole una explicación a esta canción
+Mientras siga viendo tu cara en la cara de la luna
+Mientras siga escuchando tu voz
+Entre las olas, entre la espuma
+Mientras tenga que cambiar la radio de estación
+Porque cada canción me hable de ti, de ti, de ti
+Mientras siga viendo tu cara en la cara de la luna
+Mientras siga escuchando tu voz
+Entre las olas, entre la espuma
+Mientras tenga que cambiar la radio de estación
+Porque cada canción me hable de ti, de ti, de ti
+Me hable de ti
+Me hable de ti
+De ti
+Me hable de ti, ay-ay-ay-ay-ah`,
+  },
+  {
+    path: "songs/jvlimon.mp3",
+    displayName: "Limón y Sal",
+    cover: "songs/jvlimon.jpg",
+    artist: "Julieta Venegas",
+    lyrics: `Tengo que confesar que a veces
+No me gusta tu forma de ser
+Luego te me desapareces
+Y no entiendo muy bien por qué
+
+No dices nada romántico
+Cuando llega el atardecer
+Te pones de un humor extraño
+Con cada luna llena al mes
+
+Pero a todo lo demás
+Le gana lo bueno que me das
+Solo tenerte cerca
+Siento que vuelvo a empezar
+
+Yo te quiero con limón y sal
+Yo te quiero tal y como estás
+No hace falta cambiarte nada
+
+Yo te quiero si vienes o si vas
+Si subes y bajas, si no estás
+Seguro de lo que sientes
+
+Tengo que confesarte ahora
+Nunca creí en la felicidad
+A veces, algo se le parece
+Pero es pura casualidad
+
+Luego me vengo a encontrar
+Con tus ojos, me dan algo más
+Solo tenerte cerca
+Siento que vuelvo a empezar
+
+Yo te quiero con limón y sal
+Yo te quiero tal y como estás
+No hace falta cambiarte nada
+
+Yo te quiero si vienes o si vas
+Si subes y bajas, si no estás
+Seguro de lo que sientes
+
+Yo te quiero con limón y sal
+Yo te quiero tal y como estás
+No hace falta cambiarte nada
+
+Yo te quiero si vienes o si vas
+Si subes y bajas, si no estás
+Seguro de lo que sientes
+
+Solo tenerte cerca
+Siento que vuelvo a empezar`,
+  },
+  {
+    path: "songs/jvac.mp3",
+    displayName: "Andar conmigo",
+    cover: "songs/jvac.jpg",
+    artist: "Julieta Venegas",
+    lyrics: `Hay tanto que quiero contarte
+Hay tanto que quiero saber de ti
+Ya podemos empezar poco a poco
+Cuéntame, qué te trae por aquí
+No te asustes de decirme la verdad
+Eso nunca puede estar así tan mal
+Yo también tengo secretos para darte
+Y que sepas que ya no me sirven más
+Hay tantos caminos por andar
+Dime si tu quisieras andar conmigo, oh-oh-oh
+Cuéntame si quisieras andar conmigo, oh-oh-oh
+Dime si tu quisieras andar conmigo, oh-oh-oh
+Cuéntame si quisieras andar conmigo, oh-oh-oh
+Estoy ansiosa por soltarlo todo
+Desde el principio hasta llegar al día de hoy
+Una historia tengo en mi para entregarte
+Una historia todavía sin final
+Podríamos decirnos cualquier cosa
+Incluso darnos para siempre un siempre no
+Pero ahora frente a frente, aquí sentados
+Festejemos que la vida nos cruzó
+Hay tantos caminos por andar
+Dime si tu quisieras andar conmigo, oh-oh-oh
+Cuéntame si quisieras andar conmigo, oh-oh-oh
+Dime si tu quisieras andar conmigo, oh-oh-oh
+Cuéntame si quisieras andar conmigo, oh-oh-oh
+Si quisieras andar conmigo
+Si quisieras andar conmigo
+Si quisieras andar conmigo
+Si quisieras andar conmigo`,
+  },
+  {
+    path: "songs/entersandman.mp3",
+    displayName: "Enter Sandman",
+    cover: "songs/entersandman.jpg",
+    artist: "Metallica",
+    lyrics: `Say your prayers, little one
+Don't forget, my son
+To include everyone
+I tuck you in, warm within
+Keep you free from sin
+'Til the sandman, he comes
+Sleep with one eye open
+Gripping your pillow tight
+Exit light
+Enter night
+Take my hand
+We're off to never-never land
+Something's wrong, shut the light
+Heavy thoughts tonight
+And they aren't of Snow White
+Dreams of war, dreams of liars
+Dreams of dragon's fire
+And of things that will bite, yeah
+Sleep with one eye open
+Gripping your pillow tight
+Exit light
+Enter night
+Take my hand
+We're off to never-never land, yeah
+Now I lay me down to sleep (now I lay me down to sleep)
+Pray the Lord my soul to keep (pray the Lord my soul to keep)
+If I die before I wake (if I die before I wake)
+Pray the Lord my soul to take (pray the Lord my soul to take)
+Hush, little baby, don't say a word
+And never mind that noise you heard
+It's just the beasts under your bed
+In your closet, in your head
+Exit light
+Enter night
+Grain of sand
+Exit light
+Enter night
+Take my hand
+We're off to never-never land, yeah
+Boo!
+Yeah-yeah
+Yo, whoa
+We're off to never-never land
+Take my hand
+We're off to never-never land
+Take my hand
+We're off to never-never land
+We're off to never-never land
+We're off to never-never land
+We're off to never-never land`,
   },
 ];
 
