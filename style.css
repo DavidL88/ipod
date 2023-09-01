@@ -32,7 +32,11 @@ body {
   inline-size: 100%;
   block-size: auto;
   padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   z-index: 100;
+  box-sizing: border-box;
 }
 
 .logo {
@@ -42,6 +46,80 @@ body {
 .logoHeader img:hover {
   /* content: url("./songs/neKiPod2.svg"); */
   filter: brightness(150%);
+}
+
+.btn {
+  background: transparent;
+  border: 0;
+  cursor: pointer;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 1.125rem;
+  border: none;
+  font-weight: 500;
+  inline-size: 180px;
+  overflow: hidden;
+  padding: 0;
+  position: relative;
+  text-transform: uppercase;
+  border-radius: 12px;
+}
+
+.btnCover {
+  background: #e7e7e7;
+  color: #121212;
+  padding: 0.5em 1em;
+  transition: all 0.4s linear;
+}
+
+.btnMarquee {
+  background: #666;
+  color: white;
+  position: absolute;
+  top: 0;
+  left: 0;
+  inline-size: 100%;
+  block-size: 100%;
+  z-index: -1;
+}
+
+.btnMarquee div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  inline-size: 200%;
+  block-size: 100%;
+  animation: marquee 1.8s linear infinite;
+}
+
+.btnMarquee div span {
+  float: left;
+  inline-size: 50%;
+}
+
+.btn:hover .btnCover {
+  opacity: 0;
+}
+
+.fa-upload {
+  font-size: 18px !important;
+  color: #121212 !important;
+}
+
+.fa-cloud-arrow-up {
+  font-size: 18px !important;
+  color: #e7e7e7 !important;
+}
+
+@keyframes marquee {
+  0% {
+    left: 0;
+  }
+  100% {
+    left: -100%;
+  }
 }
 
 .background {
@@ -319,4 +397,103 @@ h1 {
 
 .lyrics::-webkit-scrollbar {
   width: 0;
+}
+
+.dialog:modal {
+  background: rgb(231, 231, 231);
+  color: black;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  inline-size: 24rem;
+  block-size: 28rem;
+}
+
+dialog::backdrop {
+  background: rgba(43, 40, 40, 0.842);
+}
+
+.modalAja {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.closeBtn {
+  font-size: 30px;
+  cursor: pointer;
+  border: none;
+}
+
+button {
+  border: none;
+  background: transparent;
+}
+
+.form label {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.form h3 {
+  text-align: left;
+}
+
+.form input {
+  border: 3px solid black;
+  border-radius: 10px;
+  padding-inline: 0.5rem;
+  padding-block: 0.5rem;
+  block-size: 2rem;
+  font-size: 1rem;
+  color: #121212;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 500;
+}
+
+.form textarea {
+  border: 3px solid black;
+  border-radius: 10px;
+  padding-inline: 0.5rem;
+  padding-block: 1.1rem;
+  font-size: 1rem;
+  color: #121212;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 500;
+}
+
+.form input::placeholder {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 1rem;
+}
+
+::placeholder {
+  color: gray;
+}
+
+input.send {
+  background: rgb(58, 141, 243);
+  border: 3px solid white;
+  color: white;
+  display: block;
+  margin-inline: auto;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 1.125rem;
+  font-weight: 500;
+  inline-size: 8rem;
+  block-size: 3rem;
+  margin-block-start: 0.5rem;
+  cursor: pointer;
+  transition: transform 0.3s ea;
+}
+
+input.send:hover {
+  filter: brightness(110%);
+}
+
+input.send:focus {
+  transform: scale(0.9);
 }

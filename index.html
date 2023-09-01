@@ -104,6 +104,57 @@
         class="logo"
         title="Work in progress 🔨"
       />
+      <button class="btn on" onclick="window.modal.showModal();">
+        <div class="btnCover">
+          Request
+          <i class="fa-solid fa-upload"></i>
+        </div>
+        <div class="btnMarquee">
+          <div>
+            <span>
+              <i class="fa-solid fa-cloud-arrow-up"></i>
+              Request a Song
+            </span>
+            <span>
+              <i class="fa-solid fa-cloud-arrow-up"></i>
+              Request a Song
+            </span>
+          </div>
+        </div>
+      </button>
+      <dialog id="modal" class="dialog">
+        <div class="modalAja">
+          <button onclick="window.modal.close();">
+            <i class="fa-regular fa-rectangle-xmark closeBtn"></i>
+          </button>
+        </div>
+        <h2>Send your Song!</h2>
+        <form
+          action="https://hooks.zapier.com/hooks/catch/16396832/350mjix/"
+          method="post"
+          class="form"
+        >
+          <label for="name">
+            <h3>Username:</h3>
+            <input type="text" required id="name" placeholder="Name" />
+          </label>
+          <label>
+            <h3 for="link">Request:</h3>
+            <input
+              id="link"
+              name="link"
+              type="text"
+              required
+              placeholder="youtube.com/watch?v=38mFtzIAE_c"
+            />
+          </label>
+          <label for="comments">
+            <h3>Any Comments</h3>
+            <textarea name="comments" id="comments"></textarea>
+          </label>
+          <input class="send" type="submit" value="Send" />
+        </form>
+      </dialog>
     </header>
     <div class="background">
       <img src="" id="bgImg" />
@@ -153,7 +204,7 @@
     </div>
 
     <footer class="footer">
-      <p class="version">v.2.1.1</p>
+      <p class="version">v.2.2.0</p>
     </footer>
 
     <script src="index.js" type="module"></script>
