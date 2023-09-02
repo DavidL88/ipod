@@ -2217,6 +2217,77 @@ Que vivir en una mentira
     `,
   },
   {
+    path: "songs/evangelionop.mp3",
+    displayName: "The Cruel Angel's Thesis",
+    cover: "songs/evangelionop.jpg",
+    artist: "Neo Genesis Evangelion",
+    lyrics: `Request by: VOMISTREAM
+    
+Zankoku na tenshi no you ni
+Shonen yo, shinwa ni nare...
+
+Aoi kaze ga ima mune no doa wo tataitemo,
+Watashi dake wo tada mitsumete
+Hohoenderu Anata
+Sotto Fureru mono
+Motomeru koto ni muchuu de,
+Unmei sae mada shiranai itaikena hitom
+
+Dakedo itsuka kizuku deshou
+Sono senaka ni wa
+Haruka mirai mezasu tame no
+Hane ga aru koto...
+
+Zankoku na tenshi no te-ze
+Madobe kara yagate tobitatsu
+Hotobashiru atsui patosu de
+Omoide wo uragiru nara
+O-zora wo daite kagayaku
+Shonen yo, shinwa ni nare
+
+Zutto nemutteru watashi no ai no yurikago
+Anata dake ga yume no shisha ni
+Yobareru asa ga kuru
+Hosoi kubisuji wo tsukiakari ga utsushiteru
+Sekai-ju- no toki wo tomete
+Tojikometai kedo...
+
+Moshi mo futari aeta koto ni imi ga aru nara,
+Watashi wa, sou, jiyu- wo shiru
+Tame no Baiburu
+
+Zankoku na tenshi no te-ze
+Kanashimi ga soshite hajimaru
+Dakishimeta inochi no katachi
+Sono yume ni mezameta toki
+Dare yori mo hikari wo hanatsu
+Shonen yo, shinwa ni nare
+
+Hito wa ai wo tsumugi nagara rekishi wo tsukuru
+Megami nante narenai mama
+Watashi wa ikiru...
+
+Zankoku na tenshi no te-ze
+Madobe kara yagate tobitatsu
+Hotobashiru atsui patosu de
+Omoide wo uragiru nara
+O-zora wo daite kagayaku
+Shonen yo, shinwa ni nare
+
+    `,
+  },
+  {
+    path: "songs/browser.mp3",
+    displayName: "Peaches Norteño",
+    cover: "songs/browser.jpg",
+    artist: "Los Shinigamis del Norte",
+    lyrics: `Request by: Bowsersete
+    
+Letras no disponibles
+
+    `,
+  },
+  {
     path: "songs/pelotero.mp3",
     displayName: "Grandes Ligas",
     cover: "songs/pelotero.jpg",
