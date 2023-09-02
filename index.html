@@ -130,37 +130,6 @@
           </button>
         </div>
         <h2>Send your Song!</h2>
-        <!-- <form
-          action="https://hooks.zapier.com/hooks/catch/16396832/350mjix/"
-          method="post"
-          class="form"
-        >
-          <label for="name">
-            <h3>Username:</h3>
-            <input
-              name="name"
-              type="text"
-              required
-              id="name"
-              placeholder="Name"
-            />
-          </label>
-          <label>
-            <h3 for="link">Request:</h3>
-            <input
-              id="link"
-              name="link"
-              type="text"
-              required
-              placeholder="youtube.com/watch?v=38mFtzIAE_c"
-            />
-          </label>
-          <label for="comments">
-            <h3>Any Comments</h3>
-            <textarea name="comments" id="comments"></textarea>
-          </label>
-          <input class="send" type="submit" value="Send" />
-        </form> -->
         <form id="myForm" method="post" class="form">
           <label for="name">
             <h3>Username:</h3>
@@ -179,7 +148,7 @@
               name="link"
               type="text"
               required
-              placeholder="youtube.com/watch?v=38mFtzIAE_c"
+              placeholder="youtube.com/your-song-here"
             />
           </label>
           <label for="comments">
@@ -241,42 +210,32 @@
         <div id="songText" class="songText"></div>
       </div>
     </div>
-
-    <footer class="footer">
-      <p class="version">v.2.3.0</p>
-    </footer>
-
     <script>
       function submitForm() {
-        // Obtén los datos del formulario
         var formData = {
           name: document.getElementById("name").value,
           link: document.getElementById("link").value,
           comments: document.getElementById("comments").value,
         };
 
-        // Realiza una solicitud AJAX para enviar los datos a Zapier
         $.ajax({
           type: "POST",
           url: "https://hooks.zapier.com/hooks/catch/16396832/350mjix/",
           data: formData,
           success: function (response) {
-            // Maneja la respuesta de Zapier si es necesario
             console.log("Formulario enviado con éxito a Zapier");
-            // Aquí puedes mostrar un mensaje de éxito al usuario si lo deseas
 
-            // Limpia el formulario después de enviarlo
             document.getElementById("myForm").reset();
           },
           error: function () {
-            // Maneja cualquier error que pueda ocurrir durante la solicitud
             console.error("Error al enviar el formulario a Zapier");
-            // Aquí puedes mostrar un mensaje de error al usuario si lo deseas
           },
         });
       }
     </script>
-
+    <footer class="footer">
+      <p class="version">v.2.3.1</p>
+    </footer>
     <script src="index.js" type="module"></script>
   </body>
 </html>

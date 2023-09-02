@@ -1987,6 +1987,197 @@ Everyone wants a ride, pulls away, ooh, from you
     `,
   },
   {
+    path: "songs/patience.mp3",
+    displayName: "Patience",
+    cover: "songs/patience.jpg",
+    artist: "Guns N' Roses",
+    lyrics: `Request by: Genshing Impact
+
+One, two, one, two, three, four
+Shed a tear 'cause I'm missin' you
+I'm still alright to smile
+Girl, I think about you every day now
+Was a time when I wasn't sure
+But you set my mind at ease
+There is no doubt you're in my heart now
+Said "woman take it slow, and it'll work itself out fine"
+All we need is just a little patience
+Said "sugar make it slow and we'll come together fine"
+All we need is just a little patience (Patience)
+Mm, yeah
+I sit here on the stairs
+'Cause I'd rather be alone
+If I can't have you right now, I'll wait dear
+Sometimes I get so tense but I can't speed up the time
+But you know love there's one more thing to consider
+Said "woman take it slow and things will be just fine"
+You and I'll just use a little patience
+Said "sugar take the time 'cause the lights are shining bright"
+You and I've got what it takes to make it
+We won't fake it, I'll never break it
+'Cause I can't take it
+Little patience, mm yeah, mm yeah
+Need a little patience, yeah
+Just a little patience, yeah
+Some more patience, yeah (I've been walking the streets at night)
+Just trying to get it right (A little patience, yeah)
+It's hard to see with so many around
+You know I don't like being stuck in the crowd (Could use some patience, yeah)
+And the streets don't change but maybe the names
+I ain't got time for the game 'cause I need you (Gotta have more patience, yeah)
+Yeah, yeah, yeah but I need you (All need more patience)
+Oh, I need you (All need some patience)
+Oh, I need you (Just a little patience)
+Ooh this time (Is all you need)
+    `,
+  },
+  {
+    path: "songs/orgullosamentemexicano.mp3",
+    displayName: "Orgullosamente Mexicano",
+    cover: "songs/orgullosamentemexicano.jpg",
+    artist: "Sieck",
+    lyrics: `Request by: A C Z NO!
+
+Te voy a resumir mi México, así que aguarda un segundo
+Tenemos una de las siete maravillas del mundo
+Infeliz, aquí somos las tierras del maíz
+Y estamos orgullosos de nacer en este país
+De presidentes mediocres tenemos un historial
+Si no fuera por ellos, seríamos potencia mundial
+Aunque le tengan tanta rabia y odio al mexicano
+Si vienen a mi tierra, cualquiera les da la mano
+Porque cada quien ofrece lo que tiene dentro suyo
+Mi país es superior, no lo comparen con el suyo, basura
+Aquí hay tradición y cultura
+Mi país es tan bello que de turistas se satura
+Pregunta en América Latina del tricolor
+Patrimonio de la humanidad mi comida y sabor
+El folclor, nuestra fauna, también nuestra flora
+Somos catalogados como gente trabajadora
+Ni americano, ni colombiano
+Yo soy orgullosamente mexicano
+Ni cubano, ni dominicano
+Yo soy orgullosamente mexicano
+Ni americano, ni colombiano
+Yo soy orgullosamente mexicano
+Ni cubano, ni dominicano
+Yo soy orgullosamente mexicano
+Yo no pedí ser mexicano, simplemente tuve suerte
+Aquí nos burlamos hasta de la misma muerte
+Playas cristalinas, paisajes con estrellas
+32 estado repletos de mujeres tan bellas
+Dicen que somos descendientes de los dioses
+Toltecas, Olmecas, Zapotecas, ¿los conoces?
+Que tú me llames indio a mí no me da coraje
+Al contrario, es un orgullo tener este mestizaje
+Vitamina T, mexicano, tú lo sabes
+Tacos, tortas, tostadas, tamales
+En cada esquina encontrarás un buen changarro
+Que viva el mariachi y el que anda vestido charro
+Un águila comiendo una serpiente en un nopal
+El Dios Huitzilopochtli fundando Tenochtitlan
+Verde, blanco y rojo, mi bandera nacional
+Un águila comiendo una serpiente en un nopal
+Ni americano, ni colombiano
+Yo soy orgullosamente mexicano
+Ni cubano, ni dominicano
+Yo soy orgullosamente mexicano
+Ni americano, ni colombiano
+Yo soy orgullosamente mexicano
+Ni cubano, ni dominicano
+Yo soy orgullosamente mexicano
+Empiecen a respetar a mi México más, por favor
+Que un mexicano invento la televisión a color
+Gracias a México tu vida sexual es activa
+Pues aquí se inventó la píldora anticonceptiva
+El número cero es un invento mexicano
+Gracias a él entiendes geometría y algebra, mi hermano
+El flotador que tienes dentro de tu baño
+Lo inventó un mexicano, claro, no se te haga extraño
+Tan orgulloso de mi tierra y mis raíces
+Nuestro tequila se consume en más de 100 países
+Tanto me enorgullece la tierra que estoy pisando
+Y así será hasta el día que encima me la estén echando
+Querido México, tuyo es mi corazón
+Querida raza de bronce, chingona mi nación
+Mexicanos al grito de guerra
+Con uñas y dientes defendemos nuestra tierra
+Ni americano, ni colombiano
+Yo soy orgullosamente mexicano
+Ni cubano, ni dominicano
+Yo soy orgullosamente mexicano
+Ni americano, ni colombiano
+Yo soy orgullosamente mexicano
+Ni cubano, ni dominicano
+Yo soy orgullosamente mexicano
+    `,
+  },
+  {
+    path: "songs/bravehearth.mp3",
+    displayName: "Brave Hearth",
+    cover: "songs/bravehearth.jpg",
+    artist: "Cisar Franck",
+    lyrics: `Request by: Rictoru
+    
+Un segundo necesitas para estar bien
+Si solo tú crees
+Un destino tienes, todo tiene su plan
+Seguro lo alcanzarás
+
+Hay algo en ti, que nadie había imaginado
+Aquella luz que aún
+Brillando está y alumbrará hasta el fin
+
+Ven a mi, dime tus sueños
+Y los dos, por siempre estaremos
+Unidos por la eternidad, en libertad
+Ven a mi, confía en los planes
+Lograrás pelear con gigantes
+Valiente en victoria, con fe en esta historia
+Conmigo lo lograrás
+¡Valiente serás!
+
+Ciertos días te habrá cubierto la obscuridad
+No debes temer
+Esa lluvia nueva vida hará germinar
+Solo debes creer
+
+Hay algo en ti, que nadie había imaginado
+Aquella luz que aún
+Brillando está y alumbrará hasta el fin
+
+Ven a mi, dime tus sueños
+Y los dos, por siempre estaremos
+Unidos por la eternidad, en libertad
+Ven a mí, confía en los planes
+Lograrás pelear con gigantes
+Valiente en victoria, con fe en esta historia
+Conmigo lo lograrás
+¡Valiente serás!
+
+Llegará muy pronto el mañana
+Deberás cuidar a quien amas
+Más fuerte al final serás, ya lo verás
+
+Ven a mi, confía en los planes
+Lograrás pelear con gigantes
+Valiente en victoria, con fe en esta historia
+¡Latirá tu valiente corazón!
+
+    `,
+  },
+  {
+    path: "songs/heroesofthestorm.mp3",
+    displayName: "Chant Music (with Crowd)",
+    cover: "songs/heroesofthestorm.jpg",
+    artist: "Heroes of the Storm",
+    lyrics: `Request by: Pvtazos
+    
+Letras no disponibles.
+
+    `,
+  },
+  {
     path: "songs/pelotero.mp3",
     displayName: "Grandes Ligas",
     cover: "songs/pelotero.jpg",

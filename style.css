@@ -55,6 +55,7 @@ body {
   font-family: "Ubuntu", sans-serif;
   font-size: 1.125rem;
   border: none;
+  margin-inline: 40px;
   font-weight: 500;
   inline-size: 180px;
   overflow: hidden;
