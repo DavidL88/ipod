@@ -1841,6 +1841,45 @@ Porque si estás aquí huele a gol, huele a gol, huele a gol
     `,
   },
   {
+    path: "songs/veteya.mp3",
+    displayName: "Vete Ya",
+    cover: "songs/veteya.jpg",
+    artist: "Valentín Elizalde",
+    lyrics: `Request by: Vomitin
+
+Vete ya
+Si no encuentras motivos
+Para seguir conmigo
+¿Para qué continuar?
+Es mejor terminar como amigos
+Que ser como enemigos
+Esperando atacar
+Vete si no sientes que mi boca te provoca
+Sensaciones cuando ronda por tus labios
+Vete si tu cuerpo no se excita cuando en forma de caricias
+Te recorro con mis manos
+Nada justifica en esta vida soportar con la mentira
+Una relación si no hay amor
+Vete ya, si no hay amor
+Vete ya
+Si no encuentras motivos
+Para seguir conmigo
+¿Para qué continuar?
+Es mejor terminar como amigos
+Que ser como enemigos
+Esperando atacar
+Vete si no sientes que mi boca te provoca
+Sensaciones cuando ronda por tus labios
+Vete si tu cuerpo no se excita cuando en forma de caricias
+Te recorro con mis manos
+Nada justifica en esta vida soportar con la mentira
+Una relación si no hay amor
+Vete ya, si no hay amor
+Vete ya, si no hay amor
+
+    `,
+  },
+  {
     path: "songs/bird.mp3",
     displayName: "Blue Bird",
     cover: "songs/blue.jpg",
