@@ -2657,6 +2657,82 @@ No Letras Disponible
     `,
   },
   {
+    path: "songs/playforeal.mp3",
+    displayName: "Play for Real",
+    cover: "songs/playforeal.jpg",
+    artist: "The Crystal Method",
+    lyrics: `Request by: Rictoru
+
+Don't play with me
+When you should be saving me
+Making me
+Feel your pressure, pressure
+Don't play with me
+And just taking me
+To a place
+I can feel pressure, pressure
+You gotta be mad
+Stone cold crazy
+Out of your mind
+If you wanna play with me
+What are you sick?
+Or maybe just straight up ill?
+You gotta be crazy as fuck
+If you wanna play for real
+So honey don't play
+No, baby don't play with me
+Sugar don't play
+No, honey don't play with me
+Baby don't play
+Why don't you understand
+That i don't wanna play your game
+You trying to test me once again
+But i ain't gonna play your game (x2)
+You gotta be mad
+Stone cold crazy
+Out of your mind
+If you wanna play with me
+What are you sick?
+Or maybe just straight up ill?
+You gotta be crazy as fuck
+If you wanna play for real
+So, honey don't play
+Honey don't play
+No, baby don't play with me
+Sugar don't play
+No, honey don't play with me
+Baby don't play
+No, honey don't play with me
+Sugar don't play
+I say it loud
+I did it loud
+Don't play now
+Wow, ah come on
+Honey don't play
+Baby don't play with me
+Sugar don't play
+No, honey don't play with me
+Baby don't play
+No sugar don't play with me
+Baby don't play
+No honey don't play with me
+Oh, come on now
+Oh, I said it loud
+Say, i said it loud
+Oh, i said it loud
+You gotta be mad
+Stone cold crazy
+Out of your mind
+If you wanna play with me
+What are you sick?
+Or maybe just straight up ill?
+You gotta be crazy as fuck
+If you wanna play for real (x2)
+Play for real
+
+    `,
+  },
+  {
     path: "songs/pelotero.mp3",
     displayName: "Grandes Ligas",
     cover: "songs/pelotero.jpg",
