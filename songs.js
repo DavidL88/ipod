@@ -2339,6 +2339,112 @@ You're scheming on a thing, that's sabotage
     `,
   },
   {
+    path: "songs/aeros.mp3",
+    displayName: "What Could Have Been Love",
+    cover: "songs/aeros.jpg",
+    artist: "Aerosmith",
+    lyrics: `Request by: Rictoru
+    
+I wake up and wonder how everything went wrong
+Am I the one to blame?
+I gave up and left you for a nowhere-bound train
+Now that train has come and gone
+I close my eyes and see you lying in my bed
+And I still dreamed of that day
+What could have been love should have been the only thing that was ever meant to be
+Didn't know, couldn't see what was right in front of me
+And now that I'm alone all I have is emptiness that comes from being free
+What could have been love will never be
+An old friend who told me that you found somebody new
+Oh, you're finally moving on
+You think that I'd be over you after all these years
+Yeah, but time has proved it wrong
+'Cause I'm still holdin' on
+What could have been love should have been the only thing that was ever meant to be
+Didn't know, couldn't see what was right in front of me (what could have been love)
+And now that I'm alone all I have is emptiness that comes from being free
+What could have been love will never be
+We've gone our separate ways
+Say goodbye to another day
+I still wonder where you are
+Are you too far from turning back?
+You were slipping through my hands and I didn't understand
+What could have been love should have been the only thing that was ever meant to be
+Didn't know, couldn't see what was right in front of me (what could have been love)
+And now that I'm alone all I have is emptiness that comes from being free
+What could have been love will never be
+What could have been love will never be
+What could have been love
+What could have been love
+What could have been love (what could have been, what could have been)
+What could have been (love)
+
+    `,
+  },
+  {
+    path: "songs/aerosantana.mp3",
+    displayName: "Just Feel Better",
+    cover: "songs/aerosantana.jpg",
+    artist: "Aerosmith",
+    lyrics: `Request by: Rictoru
+
+She said I feel stranded
+And I can't tell anymore
+If we coming or I'm going
+It's not how I planed it
+I've got the key to the door
+But it just won't open
+And I know I know I know
+Part of me says let it go
+That life happens for a reason
+I don't I don't I don't
+It goes I never went before
+But this time this time
+I'm gonna try anything that just feel better
+Tell me what to do
+You know I can't see through the haze around me
+And I do anything that just feel better
+And I can't find my way
+Girl I need a change
+And I do anything that just feel better
+Any little thing that just feel better
+She said I need you to hold me
+I'm a little far from the shore
+And I'm afraid of sinking
+You're the only one knows me
+And who doesn't ignore
+That my soul is weeping
+I know I know I know
+Part of me says let it go
+Everything must have it seasons
+Round and round it goes
+And every day's a one before
+But this time this time
+I'm gonna try anything that just feels better
+Tell me what to do
+You know I can't see through the haze around me
+And I do anything that just feel better
+And I can't find my way
+God I need a change
+And I do anything that just feel better
+Any little thing that just feel better
+Long to hold you in my arms
+To all things I ought to leave behind yeah
+It's really getting nowhere
+I think I need a little help this time
+Yeah
+I'm gonna try anything that just feel better
+Tell me what to do
+You know I can't see through the haze around me
+And I do anything that just feel better
+And I can't find my way
+Girl I need a change
+And I do anything that just feel better
+Any little thing that just feel better
+
+    `,
+  },
+  {
     path: "songs/pelotero.mp3",
     displayName: "Grandes Ligas",
     cover: "songs/pelotero.jpg",
