@@ -1708,6 +1708,139 @@ vomistream 🍄💀
     `,
   },
   {
+    path: "songs/sinadiepudo.mp3",
+    displayName: "El Primero",
+    cover: "songs/sinadiepudo.jpg",
+    artist: "Lasso",
+    lyrics: `Request by: Rictoru
+    
+Oh-oh-oh-oh
+Oh-oh, oh-oh, oh-oh, oh-oh, oh-oh
+Y otra vez y otra vez
+Oh-oh-oh-oh
+Oh-oh, oh-oh, oh-oh, oh-oh, oh-oh
+En esta vida no hay nada que ame tanto
+Que ir a la cancha verte jugando
+Hoy es el día, después de tantos años
+Que esa copa la levantamos
+A veces estamo' arriba
+A veces estamo' abajo
+No importa lo que digan
+Estamos alentando
+La gente está de fiesta
+Echando pa adelante
+Con esta camiseta
+No hay nadie que nos gane
+Si alguien pudo
+Sé que también puedo
+Si nadie pudo
+Yo seré el primero
+Si alguien pudo
+Sé que también puedo
+Si nadie pudo
+Yo seré el primero
+Y otra vez y otra vez
+Y otra vez y otra vez
+A los equipos más grandes
+Yo no les tengo miedo
+Lo que nos falta en juego
+Nos sobra en corazón
+Para soñar nunca es tarde
+Hay que empezar del suelo
+Para tocar el cielo
+Solo dame un balón
+Algunas veces vamo' a perder
+También a veces vamo' a caer
+No gana el que no falla
+Gana el que se levanta
+Hasta que no piten el final
+El partido no va a terminar
+Por eso es que el fútbol
+Es el más hermoso del mundo
+Si alguien pudo
+Sé que también puedo
+Si nadie pudo
+Yo seré el primero
+Si alguien pudo
+Sé que también puedo
+Si nadie pudo
+Yo seré el primero
+Oh-oh-oh-oh
+Oh-oh, oh-oh, oh-oh, oh-oh, oh-oh
+Y otra vez y otra vez
+Oh-oh-oh-oh
+Oh-oh, oh-oh, oh-oh, oh-oh, oh-oh
+Y otra vez y otra vez
+Si alguien pudo
+Sé que también puedo
+Si nadie pudo
+Yo seré el primero
+Si alguien pudo
+Sé que también puedo
+Si nadie pudo
+Yo seré el primero
+
+    `,
+  },
+  {
+    path: "songs/hueleagol.mp3",
+    displayName: " Que No Huele a Gol",
+    cover: "songs/hueleagol.jpg",
+    artist: "Morat",
+    lyrics: `Request by: Rictoru
+
+Desde pequeño te llevo dentro
+Desde que tengo memoria te vengo a ver
+¿Cómo se oculta este sentimiento? (Ah-ah)
+Si cuando llego a la cancha quedo a tus pies
+Y ya llegó, ya llegó, ya llegó el momento
+Te quiero ver bailar
+Y ya llegó, ya llegó, ya llegó el momento
+Para poder gritar
+Te vengo a ver
+No importará prestar mi voz
+Todo por verte campeón
+Porque si estás aquí huele a gol, huele a gol, huele a gol
+Te vengo a ver
+Y se acelera el corazón (se acelera)
+Por llevar puesto tu color (tu color)
+Porque si estás aquí huele a gol, huele a gol, huele a gol
+Este amor me completa, yo te juro que no hay un poeta
+Que pueda describir lo que por la camiseta
+Se siente, la calle repleta
+Mi barrio y mi gente, la receta perfecta
+Porque me enloquece cómo tocas el balón
+Oh-oh-oh, cómo tocas el balón
+Todo el mundo grita "Quiero verte campeón"
+Oh-oh-oh, "Quiero verte campeón" (vamos)
+Te vengo a ver
+No importará prestar mi voz (no)
+Todo por verte campeón (hey, hey, hey)
+Porque si estás aquí huele a gol, huele a gol, huele a gol
+Te vengo a ver (te vengo a ver)
+Y se acelera el corazón (se acelera)
+Por llevar puesto tu color (tu color) (hey, hey, hey)
+Porque si estás aquí huele a gol, huele a gol, huele a gol
+Lo-lo-lo-lo
+Lo-lo-lo-lo-lo-lo-lo-lo
+Lo-lo-lo-lo-lo-lo-lo-lo
+Lo-lo-lo-lo-lo-lo, huele a gol, huele a gol, huele a hol
+Y ya llegó, ya llegó, ya llegó el momento
+Te quiero ver bailar
+Y ya llegó, ya llegó, ya llegó el momento
+Para poder gritar
+Te vengo a ver
+No importará prestar mi voz
+Todo por verte campeón
+Porque si estás aquí huele a gol, huele a gol, huele a gol
+Te vengo a ver
+Y se acelera el corazón (se acelera)
+Por llevar puesto tu color (tu color) (hey, hey, hey)
+Porque si estás aquí huele a gol, huele a gol, huele a gol
+
+    `,
+  },
+  {
     path: "songs/bird.mp3",
     displayName: "Blue Bird",
     cover: "songs/blue.jpg",
