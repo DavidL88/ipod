@@ -2178,6 +2178,45 @@ Letras no disponibles.
     `,
   },
   {
+    path: "songs/porquemeengano.mp3",
+    displayName: "Por qué me engaño?",
+    cover: "songs/porquemeengano.jpg",
+    artist: "El poder del norte",
+    lyrics: `Request by: ANON
+    
+No quiero pensar
+Que no valió la pena tanto amarte
+No quiero sentir
+Que fuiste en mi vida un gran error
+Quisiera creer
+Que todo esto es un pesadilla
+Que cuando despierte todo ira mejor
+Para que me engaño
+Nunca cambiaras mi vida
+Para que me engaño
+No eres lo que yo creía
+Para que me engaño
+Si te quiero todavía
+Pero mas vale un desesgaño a tiempo
+Que vivir en una mentira
+A donde se irán
+Todas mis ilusiones ya perdidas
+En donde quedaran
+Los sueños y promesas de amor
+No me arrepiento fui feliz algunos días
+Pero no lo suficiente lloré mucho y tu no
+Para que me engaño
+Nunca cambiaras mi vida
+Para que me engaño
+No eres lo que yo creía
+Para que me engaño
+Si te quiero todavía
+Pero mas vale un desesgaño a tiempo
+Que vivir en una mentira
+
+    `,
+  },
+  {
     path: "songs/pelotero.mp3",
     displayName: "Grandes Ligas",
     cover: "songs/pelotero.jpg",
