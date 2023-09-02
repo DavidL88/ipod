@@ -3074,6 +3074,800 @@ Es una telenovela
     `,
   },
   {
+    path: "songs/mepregunto.mp3",
+    displayName: "Me Pregunto",
+    cover: "songs/mepregunto.jpg",
+    artist: "Belanova",
+    lyrics: `Camino por la ciudad
+Mirando al cielo
+La lluvia me hace pensar
+Que tú estás lejos
+La gente viene y va
+Yo me congelo
+Sólo para aterrizar
+En tu recuerdo
+Me pegunto por qué
+No te puedo encontrar
+Todo habla de ti
+Pero tú no estás
+Me pregunto por qué
+Te pudiste marchar
+Creo que te puedo ver
+Pero tú no estás
+Camino por la ciudad
+Busco tu boca
+Nadie sabe donde estás
+Creo que estoy sola
+La gente viene y va
+Yo solo espero
+Justo en el mismo lugar
+A tu recuerdo
+Me pegunto por qué
+No te puedo encontrar
+Todo habla de ti
+Pero tú no estás
+Me pregunto por qué
+Te pudiste marchar
+Creo que te puedo ver
+Pero tú no estás
+Me pegunto por qué
+No te puedo encontrar
+Todo habla de ti
+Pero tú no estás
+Me pregunto por qué
+Te pudiste marchar
+Creo que te puedo ver
+Pero tú no estás
+Me pegunto por qué
+No te puedo encontrar
+    
+    `,
+  },
+  {
+    path: "songs/shabadabada.mp3",
+    displayName: "Shabadaba",
+    cover: "songs/shabadabada.jpg",
+    artist: "Ov7",
+    lyrics: `Yo qué sé dónde está el amor
+En algún asteroide, en un elevador
+En un rincón en internet
+En el monte Himalaya o en algún café
+En el norte o en el sur
+Llegará por mí, puede ser
+Yo qué sé dónde está el amor
+En alguna caja fuerte en el congelador
+Tumbao' en un sillón
+Tal vez en un poema o en cualquier canción
+En la sombra o en la luz
+Llegará por ti, puede ser
+Cómo adivinar dónde esté
+Shabadabada, shabadabada
+En el centro del planeta
+Shabadabada, shabadabada
+Olvidado en la banqueta
+Shabadabada, shabadabada
+En un cráter en la luna
+Shabadabada, shabadabada
+En el trueno o en la lluvia
+En el verde o el azul
+Tal vez lo encontraré, puede ser
+Yo qué sé dónde está el amor
+Puede ser solamente una imaginación
+Existirá, ya no sé
+Si algunas de esas tardes lo descubriré
+En la sombra o en la luz
+Tal vez lo encontraré, puede ser
+Cómo adivinar dónde esté
+Shabadabada, shabadabada
+En el centro del planeta
+Shabadabada, shabadabada
+Olvidado en la banqueta
+Shabadabada, shabadabada
+En un cráter en la luna
+Shabadabada, shabadabada
+En el trueno o en la lluvia
+En el verde o el azul
+Será para ti, puede ser
+A qué hora llegará, yo que sé
+Y cómo adivinar si el amor llegará por mí
+Shabadabada, shabadabada
+En el centro del planeta
+Shabadabada, shabadabada
+Olvidado en la banqueta
+Shabadabada, shabadabada
+En un cráter en la luna
+Shabadabada, shabadabada
+En el trueno o en la lluvia
+Hop! América, Hop! En América (Shabadabada, shabadabada)
+Hop! América, Hop! En América
+Hop! América, Hop! En América (Shabadabada, shabadabada)
+Hop! América, Hop! En América
+Hop! América, Hop! En América
+Hop! América, Hop! En América
+Hop! América, Hop! En América
+Hop! América, Hop! En América
+Hop! América, Hop! En América
+Hop! América, Hop! En América
+Hop! América, Hop! En América (Shabadabada, shabadabada)
+Hop! América, Hop! En América (En el trueno o en la lluvia)
+Hop! América, Hop! En América
+Hop! América, Hop! En América
+Hop! América, Hop! En América
+Hop! América
+    
+    `,
+  },
+  {
+    path: "songs/kaduele.mp3",
+    displayName: "Duele (Crazy)",
+    cover: "songs/kaduele.jpg",
+    artist: "Kalimba",
+    lyrics: `Es delirante, tan demente
+No buscarte entre la gente
+Olvidar que no estás
+No me quieres más
+Que nunca volverás
+Te metiste en cada capa
+Es eterna la semana
+Sin estar junto a ti
+Me pesa vivir
+Regresa voy a morir
+La conciencia me miente
+No puedo aceptar perderte, yeah
+Es profunda como el mar
+La tristeza de buscarte en mi mente
+Porque duele
+Duele tanto amarte así
+La ilusión se me escapa
+Me deshace
+Despertar y no tenerte aquí
+Siento que me mata
+Duele tanto amarte así
+Siento frío, son heladas
+En la calle las miradas
+No te puedo borrar
+Lo quiero intentar
+No puedo ni comenzar
+La conciencia me miente
+No puedo aceptar perderte, yeah
+Es profunda como el mar
+La tristeza de buscarte en mi mente
+Oh
+Porque duele
+Duele tanto amarte así
+La ilusión se me escapa
+Me deshace
+Despertar y no tenerte aquí
+Siento que me mata
+Duele tanto amarte así
+Porque duele
+Duele tanto amarte así
+La ilusión se me escapa
+Me deshace
+Despertar y no tenerte aquí
+Tanto que me mata
+Duele tanto amarte así
+Duele tanto amarte así
+    
+    `,
+  },
+  {
+    path: "songs/muriendolento.mp3",
+    displayName: "Muriendo Lento",
+    cover: "songs/muriendolento.jpg",
+    artist: "Moderatto feat. Belinda",
+    lyrics: `Wooh, wooh
+Aquí vamos
+Come on
+Quizás no sientas lo que yo sentí
+Tal vez, no hay lágrimas ni miedo
+Tal vez, no piensas ni un momento en mí
+Tal vez, hay alguien de tus sueños
+¿Dónde está el amor?
+¿Dónde está tu corazón?
+Y es que, al pensarte, todo me hace mal
+Si tú no estás (Dame una razón)
+Para no morir lento (Quiero oirlos cantar, México)
+Dime qué debo hacer (Para olvidar)
+Que alguien me escuche en el infierno
+Está tan roto ya mi corazón
+¿Cómo le digo que fue un juego?, oh-oh
+¿Dónde está el ayer? (¿Dónde está el amor?)
+¿Dónde está el rock and roll?
+Y es que, al pensarte, todo me hace mal (Quiero ver sus manos arriba)
+(Si tú no estás) Dame una razón
+Para no morir lento, lento (Wooh)
+El detector de metal
+¿Cómo está, México?
+Soplaba el viento a nuestro favor
+Y tocábamos el cielo
+Mira mis ojos y dime si es verdad
+Que nuestro amor llegó al final
+¿Dónde está el ayer? (¿Dónde está el amor?)
+¿Dónde está el rock and roll?
+Te necesito, ya nada es igual
+Y es que, al pensarte, todo me hace mal
+Si tú no estás, dame una razón
+Para no morir lento, lento
+No te pareces nada (Quien yo amé)
+Y, lentamente (Se me va la fe)
+Si tú no estás, dame una razón
+Para no morir lento, lento, lento
+Gracias por rockear tan duro con Moderatto, raza
+Uh-uh-uh-uh
+¡Se acabó!
+    
+    `,
+  },
+  {
+    path: "songs/copadelavida.mp3",
+    displayName: "La Copa de la Vida",
+    cover: "songs/copadelavida.jpg",
+    artist: "Ricky Martín",
+    lyrics: `La vida es pura pasión
+Hay que llenar, copa de amor
+Para vivir, hay que luchar
+Un corazón para ganar
+
+Como Caín y Abel, es un partido cruel
+Tienes que pelear por una estrella
+Consigue con honor la copa del amor
+Para sobrevivir y luchar por ella
+¡Luchar por ella!
+¡Luchar por ella!
+
+¡Tú y yo! Allez, allez, allez
+¡Go, go, gol! Allez allez, allez
+¡Arriba va! El mundo está de pie
+¡Go, go, gol! Allez, allez, allez
+
+La vida es competición
+Hay que sonar, ser campeón
+La copa es la bendición
+La ganarás, ¡go, go, go!
+
+Tu instinto natural vencer a tu rival
+Tienes que pelear por una estrella
+Consigue con honor la copa del amor
+Para sobrevivir y luchar por ella
+¡Luchar por ella!
+¡Luchar por ella!
+
+¡Tú y yo! Allez, allez, allez
+¡Go, go, gol! Allez, allez, allez
+¡Arriba va! El mundo está de pie
+¡Go, go, gol! Allez, allez, allez
+
+Como Caín y Abel es un partido cruel
+Tienes que pelear por una estrella
+Consigue con honor la copa del amor
+Para sobrevivir y luchar por ella
+¡Luchar por ella!
+¡Luchar por ella!
+¡Luchar por ella!
+
+¡Tú y yo! Allez, allez, allez
+¡Go, go, gol! Allez, allez, allez
+¡Arriba va! El mundo está de pie
+¡Go, go, gol! Allez, allez, allez
+
+¡Tú y yo! Allez, allez, allez
+¡Go, go, gol! Allez, allez, allez
+¡Arriba va! El mundo está de pie
+¡Go, go, gol! Allez, allez, allez
+    
+    `,
+  },
+  {
+    path: "songs/pachanga.mp3",
+    displayName: "La Pachanga",
+    cover: "songs/pachanga.jpg",
+    artist: "Vilmapalma e Vampiros",
+    lyrics: `Oh uh oh uh oh
+Oh oh oh uh oh, yeah
+Está la luna asomándose
+El cura habla por la TV
+Me dijiste pásame a buscar
+Y solo pienso en no verte más
+Y yo te pido por favor (no me busqués)
+Vos solo tenés (reproches)
+Y tengo un ticket para trasnochar
+Me dijeron que no hay nada igual
+Allí todo lo podés
+Oh uh oh uh oh uh oh (yeah)
+Pásame más tinto, se vino la pachanga
+Dale pelado, no pares nunca más
+Los chicos se quejan si la noche no es larga
+Las chicas se dejan si el tinto se acabó
+Would you dance with me?
+Los Vampiros salen a volar
+Y Vilma Palma mira la TV
+Y vos creíste que me iba a matar
+O es el verano que ya te insoló
+Y yo te pido por favor (no me busqués)
+Vos solo tenés (reproches)
+La música me sienta bien
+La arena caliente me quema los pies
+Aquí todo está muy bien
+Oh uh oh uh oh uh oh (yeah)
+Pásame más tinto, se vino la pachanga
+Dale pelado, no pares nunca más
+Los chicos se quejan si la noche no es larga
+Las chicas se dejan si el tinto se acabó
+Pero ¿qué hacés? ¿Vas o te volvés?
+Estás siempre en el medio, no sabés lo que querés
+No tenés tiempo para ver
+Te digo que estoy loco pero vos no me creés
+Yo no sé si te vas a ir
+Yo solo te miro, yo solo te pido salí
+(Salí)
+Salí
+(Salí)
+Woh uh oh uh oh oh
+Woh wuoh
+Oh uh oh uh oh uh oh (yeah)
+Pásame más tinto, se vino la pachanga
+Dale pelado, no pares nunca más
+Los chicos se quejan si la noche no es larga
+Las chicas se dejan si el tinto se acabó
+Pásame más tinto, se vino la pachanga
+Dale pelado, no pares nunca más
+Los chicos se quejan si la noche no es larga
+Las chicas se dejan si el tinto se acabó
+Pásame más tinto, se vino la pachanga
+Dale pelado, no pares nunca más
+Los chicos se quejan si la noche no es larga
+Las chicas se dejan si el tinto se acabó
+Auh
+Chan chan ueh
+Chan chan ueh
+Chan chan ueh
+Chan chan ueh
+Aquí todo está muy bien (chan chan ueh)
+Chan chan ueh
+Aquí todo está muy bien (chan chan ueh)
+Chan chan ueh
+Aquí todo está muy bien (chan chan ueh)
+Chan chan ueh
+Aquí todo está muy bien (chan chan ueh)
+Chan chan ueh
+Chan chan ueh
+Chan chan ueh
+Chan chan ueh
+Chan chan ueh
+Chan chan ueh
+Chan chan ueh
+Chan chan ueh
+Chan chan ueh
+Chan chan ueh
+    
+    `,
+  },
+  {
+    path: "songs/circulodesol.mp3",
+    displayName: "El Círculo de Sol",
+    cover: "songs/circulodesol.jpg",
+    artist: "El Gran Silencio",
+    lyrics: `y sigue la mata dando
+y yo te estoy esperando para decirte que te quiero
+para decirte que sin ti me muero
+y quiero que todo el mundo se entere
+que para mí no existen fronteras
+y que me muevo para donde quiera
+porque hay algunas personas que no me conocen
+y me ven, y piensan y dicen y sienten creen que
+que solo soy un pobre perdedor
+pero eso no me interesa por que tengo a mi familia
+y tengo un corazón y dos y tres cuatro y cinco y seis
+y soy feliz todo el día y todo el mes
+pero no me importa yo solo vine para decirte
+que yo te quiero y que me gusta cantar y cantar
+y cantar en la guitarra
+solamente yo me se el círculo de sol
+y eso me basta para decirte que te quiero
+y eso me basta para decirte que te quiero
+y que te quiero eso me basta para decirte que te quiero
+y eso me basta para decirte que sin ti me desespero
+y eso me basta para decirte que te quiero
+y eso me basta para decirte que te quiero
+y que te quiero eso me basta para decirte que te quiero
+y eso me basta para decirte que sin ti me desespero
+solo besarte quisiera, quisiera, quisiera, quisiera, quisiera
+y antes de morir, me quiero decirte
+te quiero, te quiero, te quiero, te quiero, te quiero
+porque sigue la mata dando, dando y yo te estoy esperando
+para decirte que te quiero, que te quiero
+y que te quiero que te quiero y
+que sin ti me desespero
+porque sigue la mata dando, dando y yo te estoy esperando
+para decirte que te quiero, que te quiero
+y que te quiero que te quiero y
+que sin ti me desespero
+que lindos ojos tiene mi chata
+como relumbran cuando me ven
+son negros negros como la noche
+y tan serenos como mi fe
+esos ojitos son mi esperanza
+no me los quites nunca señor
+no me los quites diosito santo
+porque sin ellos muero de amor
+no necesito que me digas que me quieres
+porque ya lo se y por que miro como me miras
+y también se que piensas en mi cada vez que me voy
+cuando no estoy me esperas
+porque sabes bien que tengo que regresar contigo
+porque me gusta estar contigo como me gusta cantar
+y cantar y cantar y cantar en la guitarra solamente
+yo me se el círculo de sol
+y eso me basta para decirte que te quiero
+y eso me basta para decirte que te quiero
+y que te quiero eso me basta para decirte que te quiero
+y eso me basta para decirte que sin ti me desespero
+y eso me basta para decirte que te quiero
+y eso me basta para decirte que te quiero
+y que te quiero eso me basta para decirte que te quiero
+y eso me basta para decirte que sin ti me desespero
+    `,
+  },
+  {
+    path: "songs/porcelain.mp3",
+    displayName: "'Porcelain'",
+    cover: "songs/porcelain.jpg",
+    artist: "Moby",
+    lyrics: `Request by: Vomitrol
+
+In my dreams I'm dying all the time
+Then I wake, it's kaleidoscopic mind
+I never meant to hurt you
+I never meant to lie
+So this is goodbye?
+This is goodbye
+Tell the truth, you've never wanted me
+Tell me
+In my dreams I'm jealous all the time
+When I wake, I'm going out of my mind
+Going out of my mind
+    `,
+  },
+  {
+    path: "songs/instantcrush.mp3",
+    displayName: "Instant Crush",
+    cover: "songs/instantcrush.jpg",
+    artist: "Daft Punk",
+    lyrics: `Request by: Vomitboy
+
+I didn't want to be the one to forget
+I thought of everything I'd never regret
+A little time with you is all that I get
+That's all we need because it's all we can take
+One thing I never see the same when you're 'round
+I don't believe in him, his lips on the ground
+I wanna take you to that place in the Roche
+But no one gives us any time anymore
+He asks me once if I'd look in on his dog
+You made an offer for it, then you ran off
+I got this picture of us kids in my head
+And all I hear is the last thing that you said
+I listened to your problems, now listen to mine
+I didn't want to anymore, oh
+And we will never be alone again
+'Cause it doesn't happen every day
+Kinda counted on you being a friend
+Can I give it up or give it away?
+Now I thought about what I wanna say
+But I never really know where to go
+So I chained myself to a friend
+'Cause I know it unlocks like a door
+And we will never be alone again
+'Cause it doesn't happen every day
+Kinda counted on you being a friend
+Can I give it up or give it away?
+Now I thought about what I wanna say
+But I never really know where to go
+So I chained myself to a friend
+Some more again
+It didn't matter what they wanted to see
+He thought he saw someone that looked just like me
+The summer memory that just never dies
+We worked too long and hard to give it no time
+He sees right through me, it's so easy with lies
+Cracks in the road that I would try and disguise
+He runs the scissors at the seam in the wall
+He cannot break it down or else he would fall
+One thousand lonely stars
+Hiding in the cold
+Take it
+I don't wanna sing anymore
+I listened to your problems, now listen to mine
+I didn't want to anymore, oh
+And we will never be alone again
+'Cause it doesn't happen every day
+Kinda counted on you being a friend
+Can I give it up or give it away?
+Now I thought about what I wanna say
+But I never really know where to go
+So I chained myself to a friend
+'Cause I know it unlocks like a door
+And we will never be alone again
+'Cause it doesn't happen every day
+Kinda counted on you being a friend
+Can I give it up or give it away?
+Now I thought about what I wanna say
+But I never really know where to go
+So I chained myself to a friend
+'Cause I know it unlocks like a
+I don't understand
+Don't get upset
+I'm not with you
+We're swimming around
+It's all I do
+When I'm with you
+And we will never be alone again
+'Cause it doesn't happen every day
+Kinda counted on you being a friend
+Can I give it up or give it away?
+Now I thought about what I wanna say
+But I never really know where to go
+So I chained myself to a friend
+'Cause I know it unlocks like a door
+And we will never be alone again
+'Cause it doesn't happen every day
+Kinda counted on you being a friend
+Can I give it up or give it away?
+Now I thought about what I wanna say
+But I never really know where to go
+So I chained myself to a friend
+'Cause I know it unlocks like a door
+    `,
+  },
+  {
+    path: "songs/everlong.mp3",
+    displayName: "Everlong",
+    cover: "songs/everlong.jpg",
+    artist: "Foo Fighters",
+    lyrics: `Request by: Vomiclon
+
+Hello
+I've waited here for you
+Everlong
+Tonight, I throw myself into
+And out of the red
+Out of her head, she sang
+Come down and waste away with me
+Down with me
+Slow, how you wanted it to be
+I'm over my head
+Out of her head, she sang
+And I wonder
+When I sing along with you
+If everything could ever be this real forever
+If anything could ever be this good again
+The only thing I'll ever ask of you
+You've got to promise not to stop when I say when
+She sang
+Breathe out
+So I can breathe you in
+Hold you in
+And now
+I know you've always been
+Out of your head
+Out of my head, I sang
+And I wonder
+When I sing along with you
+If everything could ever feel this real forever
+If anything could ever be this good again
+The only thing I'll ever ask of you
+You've got to promise not to stop when I say when
+She sang
+And I wonder
+If everything could ever feel this real forever
+If anything could ever be this good again
+The only thing I'll ever ask of you
+You've got to promise not to stop when I say when
+    `,
+  },
+  {
+    path: "songs/dancegavin.mp3",
+    displayName: "Privilously Poncheezied",
+    cover: "songs/dancegavin.jpg",
+    artist: "Dance Gavin Dance",
+    lyrics: `Request by: Vomitin
+
+Feel light as it flows
+Into our homes
+Can't hide the fact that we're both here (Runnin' rampant round town with my head in the ground)
+(But that's just s-u-p-p-o-s-e how it's suppose to be) Don't let it go
+(Me in the trunk making audible thumps) We're so scared
+Draw the line
+(But it's not really a big deal, I'm a tolerable guy) He knows
+(In the age of piss when the old man whistles) Peel back the book for a while
+(Yeah, I'm late, but don't remind me of our separate pistols)
+I'm ballistically drunk, I'm a triumphant lump
+I'm an instant glow ball coffee syrup florist filled gunk
+That beat is mystically drunk, I'm a triumphant lump
+I'm an instant glow ball coffee syrup declog your gunk
+Declog your gunk, declog your gunk
+(Drunk, gunk, drunk, gunk, drunk, gunk...)
+It's only funny in the back side of love
+Well, I won't let it break my self-esteem
+Oh, it's only funny in the back side of love
+We'll open our graves
+Move on, I caught you instantly
+Move on, you stomping elephant
+Move on, I caught you instantly
+Move on, you stomping elephant
+But I'd hate to say no
+When it comes to those beautiful blue eyes
+And I'd hate to say no
+When it comes to those beautiful fuckin' eyes
+Hold on girl, well, I promise that we'll have it all
+Hold on girl, well, I promise that we'll have it all
+It's only funny in the back side of love
+Well, I won't let it break my self-esteem
+Oh, it's only funny in the back side of love
+We'll open our graves
+You've got loud as fuck sighs, you know how to fake cry
+You've got that ostrich beak that's lowering your skill in sneak
+You've got loud as fuck sighs, you know how to fake cry
+You've got that ostrich beak that's lowering your skill in sneak
+You've got loud as fuck sighs, you know how to fake cry
+You got, you got, you got, you got me
+    `,
+  },
+  {
+    path: "songs/uneasy.mp3",
+    displayName: "Uneasy Hearts Weigh the Most",
+    cover: "songs/uneasy.jpg",
+    artist: "Dance Gavin Dance",
+    lyrics: `Request by: Vomitin
+
+To feel her touch
+It's almost impossible to hold still
+Maybe we can go back to the way it was
+Well at least let me love you the same
+I got lies to tell your children
+When my smile pierces through your bones
+Right through your bones
+(Through your bones)
+The grass is green inside my yard
+I can make you laugh so fucking hard it hurts you
+Inside your bones
+(Inside your bones)
+She talks, I listen, she's in the shower and her skin glistens
+Like oh my god I like it
+Like oh oh god I like it
+I suggest a drive, lets take the back road
+Lets get lost lets lose our minds
+Hey, little girl, I think we found it tonight
+I think we glow that fucking bright, oh
+And when she laughs I like it
+Like "oh ha ha ha ha ha"
+I got lies to tell your children
+When my smile pierces through your bones
+Right through your bones
+(Through your bones)
+The grass is green inside my yard
+I can make make you laugh so fucking hard it hurts you
+Inside your bones
+(Inside your bones)
+"Holy shit she smells like heaven
+Been best friends since we were eleven
+And oh my god I like her"
+"Yeah, I heard you like her
+Baby, I thought that we had something
+Compared to him I'm next to nothing
+Oh my god I like her"
+"Yeah I heard you like her"
+I am a million fucking bucks
+I am a thousand fucking bucks
+Your bitch is dead she was hit by a truck
+What the fuck!
+"Holy shit she smells like heaven
+Been best friends since we were eleven
+And oh my god I like her.."
+"Yeah, I heard you like her...
+Baby, I thought that we had something
+Compared to him I'm next to nothing
+Oh my god I like her"
+"Yeah I heard you like her"
+
+    `,
+  },
+  {
+    path: "songs/pieceofheaven.mp3",
+    displayName: "A Little Piece of Heaven",
+    cover: "songs/pieceofheaven.jpg",
+    artist: "Avenged Sevenfold",
+    lyrics: `Before the story begins, is it such a sin
+For me to take what's mine, until the end of time?
+We were more than friends, before the story ends
+And I will take what's mine, create what God would never design
+Our love had been so strong for far too long
+I was weak with fear that somethin' would go wrong
+Before the possibilities came true
+I took all possibility from you
+Almost laughed myself to tears
+Conjuring her deepest fears (come here you fucking bitch)
+Must have stabbed her fifty fucking times
+I can't believe it
+Ripped her heart out right before her eyes
+Eyes over easy, eat it, eat it, eat it
+She was never this good in bed, even when she was sleepin'
+Now she's just so perfect I've never been quite so fucking deep in
+It goes on and on and on
+I can keep you lookin' young and preserved forever
+With a fountain to spray on your youth whenever
+'Cause I really always knew that my little crime
+Would be cold, that's why I got a heater for your thighs
+And I know, I know it's not your time
+But bye, bye
+And a word to the wise, when the fire dies
+You think it's over but it's just begun
+Baby, don't cry
+You had my heart, at least for the most part
+'Cause everybody's gotta die sometime
+We fell apart, let's make a new start
+'Cause everybody's gotta die sometime, yeah, yeah
+But baby, don't cry
+Now possibilities I'd never considered
+Are occurring the likes of which I'd never heard
+Now an angry soul comes back from beyond the grave
+To repossess a body with which I'd misbehaved
+Smiling right from ear to ear
+Almost laughed herself to tears
+Must have stabbed him fifty fucking times
+I can't believe it
+Ripped his heart out right before his eyes
+Eyes over easy, eat it, eat it, eat it (eat the shit out of it)
+Now that it's done, I realize the error of my ways
+I must venture back to apologize from somewhere far beyond the grave
+I gotta make up for what I've done
+'Cause I was all up in a piece of heaven
+While you burned in hell, no peace forever
+'Cause I really always knew that my little crime
+Would be cold, that's why I got a heater for your thighs
+And I know, I know it's not your time
+But bye, bye
+And a word to the wise, when the fire dies
+You think it's over but it's just begun
+But baby, don't cry
+You had my heart, at least for the most part
+'Cause everybody's gotta die sometime
+We fell apart, let's make a new start
+'Cause everybody's gotta die sometime, yeah, yeah
+But baby, don't cry
+I will suffer for so long (what will you do, not long enough)
+To make it up to you (I pray to God that you do)
+I'll do whatever you want me to do (well, then, I'll grant you one chance)
+And if it's not enough (if it's not enough, if it's not enough)
+If it's not enough (not enough)
+Try again (try again)
+And again (and again)
+Over and over again
+We're coming back, coming back
+We'll live forever, live forever
+Let's have wedding, have a wedding
+Let's start the killing, start the killing
+Do you take this man in death for the rest of your unnatural life
+Yes, I do
+Do you take this woman in death for the rest of your unnatural life
+I do
+I now pronounce you
+Becuse I really always knew that my little crime
+Would be cold, that's why I got a heater for your thighs
+And I know, I know it's not your time
+But bye, bye
+And a word to the wise, when the fire dies
+You think it's over but it's just begun
+But baby, don't cry
+You had my heart, at least for the most part
+'Cause everybody's gotta die sometime
+We fell apart, let's make a new start, oh
+'Cause everybody's gotta die sometime, yeah, yeah
+But baby, don't cry
+    `,
+  },
+  {
     path: "songs/rbdsilencio.mp3",
     displayName: "Solo Quedate en Silencio",
     cover: "songs/rbdsilencio.jpg",

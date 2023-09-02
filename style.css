@@ -499,3 +499,25 @@ input.send:hover {
 input.send:focus {
   transform: scale(0.9);
 }
+
+#successMessage {
+  position: fixed;
+  inline-size: 14rem;
+  block-size: 1.4rem;
+  border-radius: 10px;
+  bottom: 90px;
+  right: 40px;
+  background-color: rgba(177, 160, 160, 0.342);
+  color: white;
+  padding: 10px;
+  display: none;
+  text-align: center;
+  align-items: center;
+  font-size: 1rem;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 500;
+}
+
+#successMessage::selection {
+  background: none;
+}
