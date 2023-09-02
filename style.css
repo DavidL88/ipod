@@ -72,7 +72,7 @@ body {
 }
 
 .btnMarquee {
-  background: #666;
+  background: rgb(206, 7, 7);
   color: white;
   position: absolute;
   top: 0;
@@ -80,6 +80,7 @@ body {
   inline-size: 100%;
   block-size: 100%;
   z-index: -1;
+  filter: brightness(150%);
 }
 
 .btnMarquee div {
@@ -409,7 +410,7 @@ h1 {
   flex-direction: column;
   gap: 0.5rem;
   inline-size: 24rem;
-  block-size: 28rem;
+  block-size: 29rem;
 }
 
 dialog::backdrop {
@@ -491,7 +492,7 @@ input.send {
 }
 
 input.send:hover {
-  filter: brightness(110%);
+  filter: brightness(120%);
 }
 
 input.send:focus {
