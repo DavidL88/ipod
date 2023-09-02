@@ -2288,6 +2288,17 @@ Letras no disponibles
     `,
   },
   {
+    path: "songs/megamanX.mp3",
+    displayName: "Boomerang Kuwanger Theme",
+    cover: "songs/megamanX.jpg",
+    artist: "Megaman X",
+    lyrics: `Request by: Xarguer
+    
+Letras no disponibles
+
+    `,
+  },
+  {
     path: "songs/pelotero.mp3",
     displayName: "Grandes Ligas",
     cover: "songs/pelotero.jpg",
