@@ -2588,6 +2588,64 @@ Dovahkiin, fah hin kogaan mu draa
     `,
   },
   {
+    path: "songs/gloria.mp3",
+    displayName: "A Call to Arms",
+    cover: "songs/gloria.jpg",
+    artist: "The Ashbringer",
+    lyrics: `Request by: Rictoru
+
+Gloria
+Honorfice
+Praelium Facio
+ 
+Animus
+Gradior Quo
+Prodo
+ 
+In Excelsis
+Precedo
+Bellator
+Decerte
+Adversa
+Incurro
+Invadoria
+ 
+Desideratus Fatum
+Desideratus Bellum
+
+    `,
+  },
+  {
+    path: "songs/lichking.mp3",
+    displayName: "Arthas My Son",
+    cover: "songs/lichking.jpg",
+    artist: "World of Warcraft",
+    lyrics: `Request by: Rictoru
+
+O Thanagor.....
+An Karanir Thanagor,
+Mor Ok Angalor.
+Mor Ok Gorum
+Palahm Raval.
+Ro-mun A'l Ga
+Ballog A'l Enthu
+Korok Na Boda...
+Ha! Ma! Da! Ma!
+Erigo Eo Draco Modo!
+Mor Ok Gorum Pala'ahm
+Mor Ok Croval Angalor
+Thanagor.....
+Mor Ok Gorum
+Pala Ah'm raval
+Specto Su Praesenti...
+Caligo Caelum...
+Mor Ok Croval Anga'lor
+Karanir Thanagor....
+Karanir Thanagor!
+
+    `,
+  },
+  {
     path: "songs/pelotero.mp3",
     displayName: "Grandes Ligas",
     cover: "songs/pelotero.jpg",
