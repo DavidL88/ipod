@@ -2646,6 +2646,17 @@ Karanir Thanagor!
     `,
   },
   {
+    path: "songs/anduin.mp3",
+    displayName: "Anduin's Theme",
+    cover: "songs/anduin.jpg",
+    artist: "Heroes of the Storm",
+    lyrics: `Request by: neku
+
+No Letras Disponible
+
+    `,
+  },
+  {
     path: "songs/pelotero.mp3",
     displayName: "Grandes Ligas",
     cover: "songs/pelotero.jpg",
