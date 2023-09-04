@@ -57,6 +57,7 @@ function loadMusic(song) {
   artist.textContent = song.artist;
   image.src = song.cover;
   background.src = song.cover;
+  document.title = `iPod - ${song.displayName}`;
 }
 
 function changeMusic(direction) {

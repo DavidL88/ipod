@@ -625,10 +625,10 @@ No me dejes caer jamás`,
     displayName: "I'll Be There For You",
     cover: "songs/bonjovii.jpg",
     artist: "Bon Jovi",
-    lyrics: `00:00 Title: I'll Be There For You
-00:02 Artist: Bon Jovi
-00:04 Album: Crossroad - 1989
-00:06 
+    lyrics: `00:05 Album: Crossroad - 1989
+00:08 Artist: Bon Jovi
+00:12 Title: I'll Be There For You
+
 00:19 I guess this time you're really leavin'
 00:25 I hold your suitcase say goodbye
 00:32 And as my broken heart lies bleedin'
@@ -636,7 +636,7 @@ No me dejes caer jamás`,
 00:45 You say you've cried a thousand rivers
 00:52 And now you're swimmin' for the shore
 00:58 You left me drownin' in my tears
-01:05 And you won't save me anymore
+01:04 And you won't save me anymore
 01:08 Oh I'm prayin' to God you'll give me one more chance, girl
 01:11 I'll be there for you
 01:14 These five words I swear to you
@@ -645,14 +645,15 @@ No me dejes caer jamás`,
 01:24 I'd live and I'd die for you
 01:27 I'd steal the sun from the sky for you
 01:31 Words can't say what love can do
-01:37 I'll be there for you
+01:39 I'll be there for you
+
 01:46 I know you know we've had some good times
 01:53 Now they have their own hidin' place
 01:59 Well I can promise you tomorrow
 02:05 But I can't buy back yesterday
 02:12 And Baby you know my hands are dirty
 02:19 But I wanted to be your valentine
-02:26 I'll be the water when you get thirsty, baby
+02:25 I'll be the water when you get thirsty, baby
 02:33 When you get drunk, I'll be the wine
 02:35 Whoa
 02:37 I'll be there for you
@@ -662,7 +663,10 @@ No me dejes caer jamás`,
 02:51 I'd live and I'd die for you
 02:54 I'd steal the sun from the sky for you
 02:57 Words can't say what love can do
-03:27 I'll be there for you
+03:04 I'll be there for you
+
+03:27 🎶🎵🎶
+
 03:34 I wasn't there when you were happy
 03:41 And I wasn't there when you were down
 03:46 I didn't mean to miss your birthday, baby
@@ -689,6 +693,16 @@ No me dejes caer jamás`,
 05:06 Whoa-oh-oh
 05:09 Whoa-oh-oh
 05:15 Whoa-oh-oh whoa
+
+
+
+
+
+05:36 🎵🎵🎵
+
+
+
+
 
     `,
   },
@@ -2074,6 +2088,8 @@ Ooh
 00:09 mezashita no wa
 00:15 aoi aoi ano sora
 
+00:27 🎶🎵🎶
+
 00:31 kanashimi wa mada oboerarezu
 00:34 setsunasa wa ima tsukami hajimeta
 00:37 anata he to idaku kono kanjou mo
@@ -2094,7 +2110,8 @@ Ooh
 01:14 furikiru hodo
 01:17 aoi aoi ano sora
 01:21 aoi aoi ano sora
-01:31 🎵 🎵 🎵
+
+01:31 🎶🎵🎶
 
 01:33 aiso tsuki taiyou na oto de
 01:37 sabireta furui mado wa koware ta
@@ -2115,7 +2132,8 @@ Ooh
 02:14 anata no te mo nigitte
 02:17 motomeru hodo
 02:21 aoi aoi ano sora
-02:34 🎵 🎵 🎵
+
+02:34 🎶🎵🎶
 
 02:37 ochiteiku to
 02:40 wakatteita
@@ -2133,7 +2151,8 @@ Ooh
 03:13 aoi aoi ano sora
 03:16 aoi aoi ano sora
 03:21 aoi aoi ano sora
-03:43 🎵 🎵 🎵
+
+03:43 🎶🎵🎶
 
 
 lyrics por: 
@@ -2309,21 +2328,9 @@ You're my playground love
     displayName: "Black Sheep",
     cover: "songs/scottpilgrim.jpg",
     artist: "Brie Larson",
-    lyrics: `Black sheep, come home
-Black sheep, come home
-Black sheep, come home
-Black sheep, come home
-Black sheep, come home
-Black sheep, come home
-Black sheep, come home
-Black sheep, come home
-Black sheep, come home
-Black sheep, come home
-Black sheep, come home
-Black sheep, come home
-Black sheep, come home
-Black sheep, come home
-Black sheep, come home
+    lyrics: `Oh Yeah!
+Oh Yeah!
+Oh Yeaaahh!!
 Hello again, friend of a friend, I knew you when
 Our common goal was waiting for the world to end
 Now that the truth is just a rule that you can bend
@@ -2341,6 +2348,501 @@ It's a mechanical bull, the number one
 You'll take a ride from anyone
 Everyone wants a ride, pulls away, ooh, from you
 
+    `,
+  },
+  {
+    path: "songs/enchanted.mp3",
+    displayName: "Enchanted",
+    cover: "songs/enchanted.jpg",
+    artist: "Taylor Swift",
+    lyrics: `Request by: Maky
+    
+There I was again tonight
+Forcing laughter, faking smiles
+Same old tired, lonely place
+Walls of insincerity, shifting eyes and vacancy
+Vanished when I saw your face
+All I can say is, it was enchanting to meet you
+Your eyes whispered, "Have we met?"
+'Cross the room your silhouette
+Starts to make its way to me
+The playful conversation starts
+Counter all your quick remarks
+Like passing notes in secrecy
+And it was enchanting to meet you
+All I can say is, I was enchanted to meet you
+This night is sparkling, don't you let it go
+I'm wonderstruck, blushing all the way home
+I'll spend forever wondering if you knew
+I was enchanted to meet you
+The lingering question kept me up
+2 AM, who do you love?
+I wonder 'til I'm wide awake
+And now I'm pacing back and forth
+Wishing you were at my door
+I'd open up and you would say, "Hey"
+It was enchanting to meet you
+All I know is, I was enchanted to meet you
+This night is sparkling, don't you let it go
+I'm wonderstruck, blushing all the way home
+I'll spend forever wondering if you knew
+That this night is flawless, don't you let it go
+I'm wonderstruck, dancing around all alone
+I'll spend forever wondering if you knew
+I was enchanted to meet you
+This is me praying that
+This was the very first page
+Not where the story line ends
+My thoughts will echo your name, until I see you again
+These are the words I held back, as I was leaving too soon
+I was enchanted to meet you
+Please don't be in love with someone else
+Please don't have somebody waiting on you
+Please don't be in love with someone else
+Please don't have somebody waiting on you
+This night is sparkling, don't you let it go
+I'm wonderstruck, blushing all the way home
+I'll spend forever wondering if you knew
+This night is flawless, don't you let it go
+I'm wonderstruck, dancing around all alone
+I'll spend forever wondering if you knew
+I was enchanted to meet you
+Please don't be in love with someone else
+Please don't have somebody waiting on you
+
+
+    `,
+  },
+  {
+    path: "songs/bellabella.mp3",
+    displayName: "Eternamente Bella",
+    cover: "songs/bellabella.jpg",
+    artist: "Alejandra Guzmán",
+    lyrics: `Quisiera que me dijeras una y otra vez
+"Te quiero, baby, te quiero
+Y siempre te querré"
+Con esa lengua extranjera
+Que me ablanda las piernas
+Que tienes boca de azúcar, eso ya lo sé
+Que besas con quemaduras de veneno y miel
+Que me has cambiado, no hay duda
+Lo sé también y me gusta
+Por eso voy a ser, por ti, por ti, por ti
+Eternamente bella, bella (uh-u-uh)
+Con un hechizo de gitana
+Seré la princesa encantada
+Que te amará por siempre
+Desesperadamente
+Desesperadamente
+Eternamente bella, bella
+Y en plena noche de la iguana
+Hago un hechizo de gitana
+Para que sigas siempre
+Desesperadamente
+Enamorado de mí
+Dispara ya, estás dispuesto a morir por mí
+¿Por qué te vendes tan caro?
+Dime ya que sí
+Tras esos lentes tan negros, ¿qué demonios piensas?
+Así es la ruleta rusa, échale valor
+¿De qué te sirven las dudas?
+Haz igual que yo
+Si encuentro algo que me gusta
+Lo tomo y no me lo pienso
+Desde hoy prometo ser por ti, por ti, por ti
+Eternamente bella, bella
+Con un hechizo de gitana
+Seré la princesa encantada
+Que te amará por siempre
+Desesperadamente
+Desesperadamente
+Eternamente bella, bella
+Y en plena noche de la iguana
+Hago un hechizo de gitana
+Para que sigas siempre
+Desesperadamente
+Desesperadamente
+Eternamente bella, bella
+Con un hechizo de gitana
+Seré la princesa encantada
+Que te amará por siempre
+Desesperadamente
+Desesperadamente
+Eternamente bella, bella
+    `,
+  },
+  {
+    path: "songs/tucarcel.mp3",
+    displayName: "Tu Cárcel",
+    cover: "songs/tucarcel.jpg",
+    artist: "Los Bukis",
+    lyrics: `Te vas, amor
+Sí así lo quieres, ¿qué puedo yo hacer?
+Tu vanidad no te deja entender
+Que en la pobreza se sabe querer
+Quiero llorar
+Y me destroza que pienses así
+Y más que ahora me quedé sin ti
+Me duele lo que tú vas a sufrir
+Pero recuerda, nadie es perfecto y tú lo verás
+Más de mil cosas mejores tendrás
+Pero cariño sincero jamás
+Vete olvidando de esto que hoy dejas y que cambiarás
+Por la aventura que tú ya verás
+Será tu cárcel y nunca saldrás
+Quiero llorar
+Y me destroza que pienses así
+Y más que ahora me quede sin ti
+Me duele lo que tú vas a sufrir
+Pero recuerda, nadie es perfecto y tú lo verás
+Más de mil cosas mejores tendrás
+Pero cariño sincero jamás
+Vete olvidando, de esto que hoy dejas y que cambiarás
+Por la aventura que tú ya verás
+Será tu cárcel y nunca saldrás
+Pero recuerda, nadie es perfecto y tú lo verás
+Más de mil cosas mejores tendrás
+Pero cariño sincero jamás
+Vete olvidando, de esto que hoy dejas y que cambiarás
+Por la aventura que tú ya verás
+Será tu cárcel y nunca saldrás
+    `,
+  },
+  {
+    path: "songs/desvelado.mp3",
+    displayName: "Desvelado",
+    cover: "songs/desvelado.jpg",
+    artist: "Bobby Pulido",
+    lyrics: `Será fe que yo encontré
+Una voz de ternura
+Que me llena de placer
+Cuando la oigo hablar
+Con ella me enamoré
+Que nunca la conocí
+Sueño en su querer
+Y en sus brazos quiero dormir
+Escucho cada día la radio
+Seguro que la vuelvo a oír
+Por el cielo busco mi estrella
+A la luna quiero subir
+Voy desvelado
+Por estas calles esperando encontrar
+A esa voz de ángel que quiero amar
+¿Dónde andará?
+Voy desvelado
+Y mi deseo no me deja descansar
+Porque despierto y no me pongo a llorar
+Yo seguiré, desvelado y sin amor
+Será fe que yo encontré
+Una voz de ternura
+Que me llena de placer
+Cuando la oigo hablar
+Con ella me enamoré
+Que nunca la conocí
+Sueño en su querer
+Y en sus brazos quiero dormir
+Escucho cada día la radio
+Seguro que la vuelvo a oír
+En el cielo busco mi estrella
+A la luna quiero subir
+Voy desvelado
+Por estas calles esperando encontrar
+A esa voz de ángel que quiero amar
+¿Dónde andará?
+Voy desvelado
+Y mi deseo no me deja descansar
+Porque despierto y no me pongo a llorar
+Yo seguiré, desvelado y sin amor
+    `,
+  },
+  {
+    path: "songs/corazonpartido.mp3",
+    displayName: "Corazón Partío",
+    cover: "songs/corazonpartido.jpg",
+    artist: "Alejandro Sanz",
+    lyrics: `Tiritas pa este corazón partió (tiri-ti-tando de frío)
+Tiritas pa este corazón partió, (pa este corazón partió)
+Ya lo ves, que no hay dos sin tres
+Que la vida va y viene y que no se detiene
+Y, qué sé yo
+Pero miénteme, aunque sea dime que algo queda entre nosotros dos
+Que en tu habitación nunca sale el sol
+Ni existe el tiempo ni el dolor
+Llévame si quieres a perder
+A ningún destino, sin ningún por qué
+Ya lo sé, que corazón que no ve
+Es corazón que no siente
+O corazón que te miente amor
+Pero, sabes que en lo más profundo de mi alma
+Sigue aquel dolor por creer en ti
+¿Qué fue de la ilusión y de lo bello que es vivir?
+Para qué me curaste cuando estaba herido
+Si hoy me dejas de nuevo el corazón partió
+¿Y quién me va a entregar sus emociones?
+¿Quién me va a pedir que nunca le abandone?
+¿Quién me tapará esta noche si hace frío?
+¿Quién me va a curar el corazón partió?
+¿Quién llenará de primaveras este enero
+Y bajará la luna para que juguemos?
+Dime, si tú te vas, dime cariño mío
+¿Quién me va a curar el corazón partió?
+Quién me va a curar
+Dar solamente aquello que te sobra
+Nunca fue compartir, sino dar limosna, amor
+Si no lo sabes tú, te lo digo yo
+Después de la tormenta siempre llega la calma
+Pero, sé que después de ti
+Después de ti no hay nada
+Para qué me curaste cuando estaba herido
+Si hoy me dejas de nuevo con el corazón partió
+¿Quién me va a entregar sus emociones?
+¿Quién me va a pedir que nunca le abandone?
+¿Quién me tapará esta noche si hace frío?
+¿Quién me va a curar el corazón partió?
+¿Quién llenará de primaveras este enero
+Y bajará la luna para que juguemos?
+Dime, si tú te vas, dime cariño mío
+¿Quién me va a curar el corazón partió?
+¿Quién me va a entregar sus emociones?
+¿Quién me va a pedir que nunca le abandone?
+¿Quién me tapará esta noche si hace frío?
+¿Quién me va a curar el corazón partió?
+¿Quién llenará de primaveras este enero
+Y bajará la luna para que juguemos?
+Dime, si tú te vas, dime cariño mío
+¿Quién me va a curar el corazón partió?
+¿Quién me va a entregar sus emociones?
+¿Quién me va a pedir que nunca le abandone?
+¿Quién me tapará esta noche si hace frío?
+¿Quién me va a curar el corazón partió?
+¿Quién llenará de primaveras este enero
+Y bajará la luna para que juguemos?
+Dime, si tú te vas, dime cariño mío
+¿Quién me va a curar el corazón partió?
+¿Quién bajará la luna para que juguemos?
+¿Quién llenará de primaveras este enero?
+¿Quién me va a curar?
+Que juguemos
+Dime, si tú te vas
+Cariño mío
+¿Quién me va a entregar sus emociones?
+¿Quién me va a pedir que nunca le abandone?
+¿Quién me tapará esta noche si hace frío?
+¿Quién me va a curar el corazón partió?
+¿Quién llenará de primaveras este enero
+Y bajará la luna para que juguemos?
+Dime, si tú te vas, dime cariño mío
+¿Quién me va a curar el corazón partió?
+¿Quién me va a entregar sus emociones?
+¿Quién me va a pedir que nunca le abandone?
+¿Quién me tapará esta noche si hace frío?
+¿Quién me va a curar el corazón partió?
+¿Quién llenará de primaveras este enero
+Y bajará la luna para que juguemos?
+Dime, si tú te vas, dime cariño mío
+¿Quién me va a curar el corazón partió?
+    `,
+  },
+  {
+    path: "songs/airesoy.mp3",
+    displayName: "Aire Soy",
+    cover: "songs/airesoy.jpg",
+    artist: "Miguel Bosé y Ximena Sariñana",
+    lyrics: `Una idea, un continente, una mirada
+Casi sin querer
+Se me escapa, se me nubla, no se acaba
+Casi sin querer
+No hay nada ya
+No hay nada ya
+Tocarte por dentro, besar
+No hubo y no habrá
+No hay nada aquí ya
+Volarme y al tiempo volar
+Aire soy y al aire
+El viento no, el viento, el viento no
+Que sin ti soy nadie
+Sin ti yo no, sin ti, sin ti yo no
+Una fuga, un SOS, una parada
+Casi sin querer
+Y la duda en sentimiento transformada
+Casi sin querer
+No hay nada ya
+No hay nada ya
+Tan bello es caer a tus pies
+No hubo y no habrá
+No hay nada aquí ya
+De quién este cielo es de quién?
+Aire soy y al aire
+El viento no, el viento, el viento no
+Que sin ti soy nadie
+Sin ti yo no, sin ti, sin ti yo no
+No hay nada ya
+No hay nada ya
+Tan bello es caer a tus pies
+No hubo y no habrá
+No hay nada aquí ya
+De quién este cielo es de quién?
+Aire soy y al aire
+El viento no, el viento, el viento no
+Que sin ti soy nadie
+Sin ti yo no, sin ti, sin ti yo no
+Aire soy y al aire
+El viento no, el viento, el viento no
+Que sin ti soy nadie
+Sin ti yo no, sin ti, sin ti yo no
+Yo no, yo no, yo no
+Yo no, yo no, yo no
+Yo no, yo no, yo no
+    `,
+  },
+  {
+    path: "songs/duelelamor.mp3",
+    displayName: "Duele el Amor",
+    cover: "songs/duelelamor.jpg",
+    artist: "Alex Syntek y Ana Torroja",
+    lyrics: `Duele el amor sin ti
+Duele hasta matar
+Siento la humedad en mí
+De verte llorar ni hablar
+Si es que tú te vas de aquí
+Creo que a mí me va sufrir
+Hoy quisiera detener el tiempo
+La distancia entre los dos
+Pero se apagó la luz del cielo
+Ya no sale más el sol
+Soy fragilidad sin ti
+¿Cómo superar el fin?
+¿Dónde es que dañé?, no sé
+Y el recuperar se fue
+Ni tú ni yo somos culpables
+Pero somos vulnerables
+Son las cosas de la vida
+Que me queda por vivir
+Duele el amor sin ti
+Llueve hasta mojar
+Duele el amor sin ti
+Duele hasta matar
+Duele el amor sin ti
+Todo está tan gris
+Hoy quisiera detener el tiempo
+La distancia entre los dos
+Pero se apagó la luz del cielo
+Ya no sale más el sol
+Soy fragilidad sin ti
+¿Cómo superar el fin?
+¿Dónde es que dañé?, No sé
+Y el recuperar se fue
+Ni tú ni yo somos culpables
+Pero somos vulnerables
+Son las cosas de la vida
+Que me queda por vivir
+Duele el amor sin ti
+Llueve hasta mojar
+Duele el amor sin ti
+Duele hasta matar
+Duele el amor sin ti
+Todo está tan gris
+Siento la humedad en mí (siento la humedad en mí)
+De verte llorar ni hablar (de verte llorar ni hablar)
+Si es que tú te vas de aquí (si es que tú te vas de aquí)
+Creo que a mí me va sufrir (creo que a mí me va sufrir)
+Siento la humedad en mí (siento la humedad en mí)
+De verte llorar ni hablar (de verte llorar ni hablar)
+Si es que tú te vas de aquí (si es que tú te vas de aquí)
+Creo que a mí, creo que a mí me va sufrir
+Duele el amor sin ti
+Llueve hasta mojar
+Duele el amor sin ti
+Duele hasta matar
+Duele el amor sin ti
+Todo está tan gris
+    `,
+  },
+  {
+    path: "songs/chicadehumo.mp3",
+    displayName: "La Chica de Humo",
+    cover: "songs/chicadehumo.jpg",
+    artist: "Emmanuel",
+    lyrics: `Aun yo no sé quién e'
+Lo deben saber mis pies
+La siguen como las ratas
+A la flauta de Hamelin
+Para perderla después
+No quiero hablar de este tema
+Pero es mi mayor problema
+Ella está siempre en portada
+A toda plana
+Cada mañana
+En el diario de mis penas
+Ah, me entiende
+Me tantea
+Ah, se enciende
+Coquetea
+Se evapora
+Y yo qué sé dónde va, dónde vive
+Y todo está mal
+Y siempre es igual
+Y yo qué sé, que no soy detective
+La paso fatal
+Mi chica de humo
+Mi chica de humo
+No escucha cuando hablo yo
+Sus ojos dicen que no
+Y luego me contradice
+Por placer, para hacer
+Que un día me ruborice
+Yo ya dejé atrás los veinte
+Y ella probablemente
+No estamos para jugar
+No me va a trastornar
+Un crucigrama viviente
+Ah, me entiende
+Me tantea
+Ah, se enciende
+Coquetea
+Se evapora
+Y yo qué sé dónde va, dónde vive
+Y todo está mal
+Y siempre es igual
+Y yo qué sé, yo no soy detective
+La paso fatal
+Mi chica de humo
+Mi chica de humo
+Uh, y yo qué sé dónde va, dónde vive
+Y todo está mal
+Y siempre es igual
+Y yo qué sé, yo no soy detective
+La paso fatal
+Mi chica de humo
+Mi chica de humo
+Y quién te crees que eres tú
+Siempre tú, siempre igual
+Y siempre está todo mal
+Y quién te crees que eres tú
+Siempre tú, siempre igual
+Y siempre está todo mal
+Y quién te crees que eres tú
+Siempre tú, siempre igual
+Y siempre está todo mal
+Ah, me entiende
+Me tantea
+Ah, se enciende
+Coquetea
+Se evapora
+Yo qué sé dónde va, dónde vive
+Todo está mal
+Y siempre es igual
+Y yo qué sé, yo no soy detective
+La paso fatal
+Mi chica de humo
+Mi chica de humo
+Y yo qué sé dónde va, dónde vive
+Y todo está mal
+Y siempre es igual
+Y yo qué sé, yo no soy detective
+La paso fatal
+Mi chica de humo
+Mi chica de humo
     `,
   },
   {
@@ -3978,6 +4480,49 @@ So I chained myself to a friend
     `,
   },
   {
+    path: "songs/todalavida.mp3",
+    displayName: "Toda la Vida",
+    cover: "songs/todalavida.jpg",
+    artist: "Emmanuel y Mijares",
+    lyrics: `Toda la vida coleccionando mil amores
+haciendo juegos malabares
+para no amarte en exclusiva.
+Toda la vida poniendo trampas al orgullo
+tantas historias como estrellas
+para no ser esclavo tuyo
+para obtener mi propia música.
+Toda la vida descubriendo puertas a escondidas
+para escapar de tus heridas
+para buscar la aventuras que me liberen de tus besos
+solo por eso, solo por eso.
+Toda la vida para olvídate
+para perderte y recupérate
+y no dormirme en tus sentidos
+como un idiota enamorado desmadejado
+aburrido que se conforma.
+Toda la vida marcando números secretos
+mandando cartas a escondidas
+haciendo citas indiscretas
+como un romántico suicida, un suicidas.
+Toda la vida sabiendo siempre que me esperas
+siempre segura de ti misma
+siempre mujer siempre perfecta
+y yo buscando mi otra música, mi propia música,
+en me música aaah.
+Toda la vida pensando siempre en tu egoísmo
+y por no ser esclavo tuyo
+soy el esclavo de mi mismo.
+Toda la vida tirando amor por por todos lados
+dejando beso enganchados
+en cada nueva despedida
+y tu al final la mas querida.
+Toda la vida.....
+toda la vida.....
+toda la vida
+toda la vida
+    `,
+  },
+  {
     path: "songs/everlong.mp3",
     displayName: "Everlong",
     cover: "songs/everlong.jpg",
@@ -4492,6 +5037,51 @@ I need you all night, come on, dance with me
 I'm levitating`,
   },
   {
+    path: "songs/culpable.mp3",
+    displayName: "Culpable o No",
+    cover: "songs/culpable.jpg",
+    artist: "Luis Miguel",
+    lyrics: `Precisamente ahora que tú ya te has ido
+Me han dicho que has estado engañándome
+¿Por qué de pronto tienes tantos enemigos?
+¿Por qué tengo que andar disculpándote?
+Si ellos están mintiendo, por favor defiéndete
+Yo sé que no lo harás, pues dicen la verdad
+Es una pena siempre seguirás doliéndome
+Y culpable o no
+¿Qué le puedo hacer ya?
+Miénteme como siempre
+Por favor miénteme
+Necesito creerte
+Convénceme
+Miénteme con un beso
+Que parezca de amor
+Necesito quererte
+Culpable o no
+No tengo ya derecho a reprocharte nada
+Pues nada queda ya de ti, de mí, de ayer
+Qué pena, nuestra historia pudo ser fantástica
+Y ahora dime mi amor
+¿Quién te va a defender?
+Miénteme como siempre
+Por favor miénteme
+Necesito creerte
+Convénceme
+Miénteme con un beso
+Que parezca de amor
+Necesito quererte
+Culpable o no
+Miénteme como siempre
+Por favor miénteme
+Necesito creerte
+Convénceme
+Miénteme con un beso
+Que parezca de amor
+Necesito quererte
+Culpable o no
+`,
+  },
+  {
     path: "songs/dualipabmh.mp3",
     displayName: "Break My Hearth",
     cover: "songs/dualipabmh.jpg",
@@ -4633,6 +5223,49 @@ Me hable de ti
 Me hable de ti
 De ti
 Me hable de ti, ay-ay-ay-ay-ah`,
+  },
+  {
+    path: "songs/unoentremil.mp3",
+    displayName: "Uno Entre Mil",
+    cover: "songs/unoentremil.jpg",
+    artist: "Mijares",
+    lyrics: `En tierra firme, nada que dudar
+Aunque te digan "acabado", no hagas caso, no
+Sigue adelante, nadie irá por ti
+Uno entre mil, yo ganaré
+Qué cuesta arriba la partida
+Del juego de la vida
+El pasado no podrá
+Volver a ser igual
+Y quizás así es mejor
+¡Yo no lo sé!
+Si jamás creíste en mí
+Tienes que cambiar de idea
+La vida es como la marea
+En dique seco, en altamar
+Va y viene sin parar
+Nunca hice trampa, ni la voy a hacer
+Y en esta noche he decidido abrir el corazón
+Lo pierdo todo y vuelvo a comenzar
+Uno entre mil, yo ganaré
+Qué cuesta arriba la partida
+Del juego de la vida
+Tú no acabas de entender
+Esta música ligera
+Que llena de felicidad
+Las grises tardes de tormenta
+Grito al aire mi canción
+Jamás por pedir ayuda
+Y menos a ti que a ninguna
+Sigo guardando mi secreto
+Tú, sorda, yo, cantando
+Si estás en tierra, no hagas caso, no
+Aunque te digan "fracasado", sigue, sin parar
+Hasta que suene la campana, ve
+Uno entre mil, yo triunfaré
+Qué cuesta arriba la partida
+Del juego de la vida, de esta vida
+Uno entre mil, yo triunfaré`,
   },
   {
     path: "songs/jvlimon.mp3",

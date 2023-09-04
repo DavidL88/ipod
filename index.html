@@ -105,7 +105,11 @@
         class="logo"
         title="Work in progress 🔨"
       />
-      <button class="btn on" onclick="window.modal.showModal();">
+      <button
+        title="Request"
+        class="btn on"
+        onclick="window.modal.showModal();"
+      >
         <div class="btnCover">
           Request
           <i class="fa-solid fa-upload"></i>
@@ -166,6 +170,15 @@
           </div>
         </form>
       </dialog>
+      <script>
+        function cambiarTituloCancion(tituloCancion) {
+          if (tituloCancion) {
+            document.title = `iPod - ${tituloCancion}`;
+          } else {
+            document.title = "iPod";
+          }
+        }
+      </script>
     </header>
     <div class="background">
       <img src="" id="bgImg" />
@@ -173,7 +186,7 @@
     <div class="buble">
       <div class="wrapper">
         <div class="player-img">
-          <img src="" class="active" id="cover" title="Album" />
+          <img src="" class="active" id="cover" title="Cover" />
         </div>
         <h2 id="musicTitle" title="Title"></h2>
         <h3 id="musicArtist" title="Author"></h3>
@@ -243,7 +256,7 @@
       }
     </script>
     <footer class="footer">
-      <p class="version">v.2.4.4</p>
+      <p class="version">v.2.5.0</p>
     </footer>
     <script src="index.js" type="module"></script>
   </body>
