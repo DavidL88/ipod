@@ -5037,6 +5037,51 @@ I need you all night, come on, dance with me
 I'm levitating`,
   },
   {
+    path: "songs/saber.mp3",
+    displayName: "Anata ga ita mori",
+    cover: "songs/saber.jpg",
+    artist: "Jyukai",
+    lyrics: `Request by: Rictoru
+Fukai Fukai mori no naka honoka kaoru
+itoshii
+Hibi no omokage sagashitemireba Fui ni
+anata ga warau
+
+Furetemitakute te wo nobashitemo Haka
+naku chuu wo matta no desu
+
+Anata ni aitakute zutto Ai takute zutto
+Omou
+Nemurenu yoru wo watari
+Anata ga nokoshita itami no kage no naka
+ni Tsutsumarete naiteiru
+
+Dame na atashi wo Kogashi shizumu yuuhi
+to
+Hadashi no mama ai no zangai wo Funde
+nijinda aka
+
+Furete miyouto Te wo kazashitara Anata
+no koe ga shitano
+
+"Aishiteru." Imasara todokanu Uta wa
+kaze ni saraware
+Haruka kieteittayo
+Sunadokei sora takaku Tobashite mite mo
+nani mo Ano hi no ne wa hibikazu
+
+Nido to wa sawarenai Keshikitachi ga
+Sarasara nagare dashite
+
+"Kesenai." Fue sugita kuuki Kasane
+sugita kioku to Sono te mo sono kami mo
+Anata ga nokoshita Hikari to kage wa
+amari ni mo Ooki sugiru no deshita.
+
+Fukai fukai mori no naka de...
+`,
+  },
+  {
     path: "songs/culpable.mp3",
     displayName: "Culpable o No",
     cover: "songs/culpable.jpg",

@@ -148,6 +148,8 @@ body {
 }
 
 .wrapper {
+  display: flex;
+  flex-direction: column;
   background-color: #e7e7e7;
   block-size: 31.25rem;
   inline-size: 25rem;
@@ -162,13 +164,11 @@ body {
 }
 
 .player-img {
-  inline-size: 100%;
+  inline-size: 18.75rem;
   block-size: 18.75rem;
   position: relative;
-  inset-block-start: -3.125rem;
-  inset-inline-start: calc(50% - 9.375rem);
-  max-inline-size: 18.75rem;
-  max-block-size: 18.75rem;
+  inset-block-end: 3.125rem;
+  margin-inline: auto;
 }
 
 .player-img img {
@@ -199,14 +199,17 @@ h2 {
   font-size: 1.5625rem;
   text-align: center;
   font-weight: 500;
-  margin: -10px 0 0;
+  margin: 0;
+  position: relative;
+  inset-block-end: 1.3rem;
 }
 
 h3 {
   font-size: 1.125rem;
   text-align: center;
   font-weight: 500;
-  margin: 20px 0 0;
+  margin: 0;
+  padding-block-end: 0.8rem;
 }
 
 .player-progress {
