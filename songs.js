@@ -5323,7 +5323,7 @@ I don't eva wanna fire no gun
     displayName: "Super Shy",
     cover: "songs/newjeans.jpg",
     artist: "NewJeans",
-    lyrics: `Request by: Daniel Efren Lopez Castillo
+    lyrics: `Request by: Chipriano
   
 I'm super shy, super shy
 But wait a minute while I make you mine make you mine
