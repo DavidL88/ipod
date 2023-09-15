@@ -5083,6 +5083,481 @@ Fukai fukai mori no naka de...
 `,
   },
   {
+    path: "songs/craneo.mp3",
+    displayName: "Cristal. ft BxRod",
+    cover: "songs/craneo.jpg",
+    artist: "Cráneo & Made in M",
+    lyrics: `Request by: Nai
+    
+I wonder
+How you could tell her
+That you would
+give her everything and more
+
+I'm just thinking
+How it seems a bit crazy
+That you got your act together
+But i know it's for the better
+
+Why, life you are a beautiful thing
+Nine, times out of 10 you're unbelievable
+Ride, it out there's things you haven't seen
+Find, everything you want and more
+
+Pieces
+I'm making peace with
+With you, with you
+
+Pieces
+I'm making peace with
+With you, with you
+
+Craneo
+
+Me despierto con cara de otro
+avanzo pixelao' perdiendo trozos
+hace un sol de p*** madre
+Y ni Benicio me saca del pozo
+No levanto el culo si tocan el timbre
+Sólo pa' poner la cara B
+Le echo unas hojillas al grinder
+Grindo con el finguer
+Una nube de humo de cabeza a pies
+Lo que hay en mi pecho no es decoración
+Sobre tu tejado lloviendo a pulmón
+Estoy calao hasta los huesos (wet-bonds)
+El pasillo no es estrecho si pasamos los dos
+Antes de hablar asomate al retrovisor
+Y pregúntale si ¿lo harias mejor?
+Tiro lo que sobra y pillo combustible
+Pa' cruzar este universo de papel y cartón
+
+Pieces
+I'm making peace with
+With you, with you
+
+Pieces
+I'm making peace with
+With you, with yo`,
+  },
+  {
+    path: "songs/semarcho.mp3",
+    displayName: "Un Velero Llamado Libertad",
+    cover: "songs/semarcho.jpg",
+    artist: "José Luis Perales",
+    lyrics: `Request by: Daniel Castillo
+  
+Ayer se fue
+Tomó sus cosas y se puso a navegar
+Una camisa, un pantalón vaquero
+Y una canción
+¿Dónde irá? ¿Dónde irá?
+Se despidió
+Y decidió batirse en duelo con el mar
+Y recorrer el mundo en su velero
+Y navegar, nai na nai, navegar
+Y se marchó
+Y a su barco le llamó, Libertad
+Y en el cielo descubrió gaviotas
+Y pintó estelas en el mar
+Y se marchó
+Y a su barco le llamó, Libertad
+Y en el cielo descubrió gaviotas
+Y pintó estelas en el mar
+Su corazón
+Buscó una forma diferente de vivir
+Pero las olas le gritaron, vete
+Con los demás, nai na nai, con los demás
+Y se durmió
+Y la noche le gritó, ¿Dónde vas?
+Y en sus sueños dibujó gaviotas
+Y pensó, hoy debo regresar
+Y regresó
+Y una voz le preguntó, ¿Cómo estás?
+Y al mirarla descubrió unos ojos
+Nai na nai, azules como el mar
+Y regresó
+Y una voz le preguntó, ¿Cómo estás?
+Y al mirarla descubrió unos ojos
+Nai na nai, azules como el mar
+Y se marchó
+Y a su barco le llamó, Libertad
+Y en el cielo descubrió gaviotas
+Y pintó estelas en el mar
+`,
+  },
+  {
+    path: "songs/narcisista.mp3",
+    displayName: "Narcisista Por Excelencia",
+    cover: "songs/narcisista.jpg",
+    artist: "PXNDX",
+    lyrics: `Request by: zas
+  
+¿Sabes qué es la inseguridad?
+¿Sabes lo que es sentir la soledad?
+Mi peor error fue haber aceptado mi fealdad
+Porque ahora ya no tengo dónde esconder el miedo
+Y el miedo sigue vivo; se la vive aquí conmigo
+Yo me baso en la apariencia, con placer y sin conciencia
+Espero que algún día, tu atención fijes en mí
+Es por eso que ahora visto así
+Quiero ser elegante y estilero hasta el fin
+No podré proyectarlo; me lo tengo que creer
+Suponiendo que en la gente la belleza es natural
+Pues belleza es la palabra que aún no logro concretar
+Disfraz, disfraz
+Narcisista artificial
+Disfraz, disfraz
+Todo es mental
+¿Cómo me peinaré esta noche?
+¿Qué ropa me combinará mejor?
+Tener tu interés
+Convertirlo en amor
+Quisiera poder saber qué piensas
+¿Me veré bien o acaso me veo mal?
+Sé que es patético
+Pero en mí es normal
+Suponiendo que en la gente la belleza es natural
+Pues belleza es la palabra que aún no logro concretar
+Disfraz, disfraz
+Narcisista artificial
+Disfraz, disfraz
+Todo es mental
+Suponiendo que en la gente la belleza es natural
+Pues belleza es la palabra que aún no logro concretar
+Disfraz, disfraz
+Narcisista artificial
+Disfraz, disfraz
+Todo es mental
+`,
+  },
+  {
+    path: "songs/surrender.mp3",
+    displayName: "Surrender",
+    cover: "songs/surrender.jpg",
+    artist: "Natalie Taylor",
+    lyrics: `Request by: Estafeta
+  
+We let the waters rise
+We drifted to survive
+I needed you to stay
+But I let you drift away
+My love, where are you?
+My love, where are you?
+Whenever you're ready, whenever you're ready
+Whenever you're ready, whenever you're ready
+Can we, can we surrender?
+Can we, can we surrender?
+I surrender
+No one will win this time
+I just want you back
+I'm running to your side
+Flying my white flag, my white flag
+My love, where are you?
+My love, where are you?
+Whenever you're ready, whenever you're ready
+Whenever you're ready, whenever you're ready
+Can we, can we surrender?
+Can we, can we surrender?
+I surrender
+Ooh-ooh-oh, oh-oh
+I surrender
+`,
+  },
+  {
+    path: "songs/cocofunka.mp3",
+    displayName: "Toys & Guns ft. Toledo",
+    cover: "songs/cocofunka.jpg",
+    artist: "Cocofunka",
+    lyrics: `Request by: Babi Fanboy
+  
+Smoke up in the Street
+Looking for the light within me
+Searching in my soul
+I don't eva wanna fire no gun
+I don't eva wanna fire no gun
+I've been here in this life
+Thru the hype and the low
+Singing songs for the birds in the streets
+Soma lirica triptica mistica
+Gotta bring salto to the bridge
+One a rumba neva da flinch
+bombodee whisper in my ears
+Gotta bring the crown to the king
+Dem looking for the money in the long run
+Dem looking for the vanity and control now
+Getting ah! By the god of entertainment
+Tell me now if u are happy with the payment
+Smoke up in the Street
+Looking for the light within me
+Searching in my soul
+I don't eva wanna fire no gun
+Dem calling my name in the fog
+I try to run run run to dem all
+Confusion if u are standing alone
+Don't trade ur toys for a gun
+Quita quita quita todo lo que pica
+Buscá un mantra hacete la vibra
+guns and tools
+from you small them taking you to school
+Guns and tools
+watch out before dem tun yu inna fool
+chamaquito me compraron mi primer juguete
+un revolver de agua un 357
+me enseñaron que era bueno jugar con un cohete
+pero me despabile cuando a los 17
+cause me a learna (learner)
+you walk with your burna (burner)
+guns bring murda(murder)
+thats a life turna(turner)
+im a good vibe earna that me learn ya
+what goes around comes around that something that I heard ya
+Smoke up in the Street
+Looking for the light within me
+Searching in my soul
+I don't eva wanna fire no gun
+`,
+  },
+  {
+    path: "songs/newjeans.mp3",
+    displayName: "Super Shy",
+    cover: "songs/newjeans.jpg",
+    artist: "NewJeans",
+    lyrics: `Request by: Daniel Efren Lopez Castillo
+  
+I'm super shy, super shy
+But wait a minute while I make you mine make you mine
+떨리는 지금도 you're on my mind all the time
+I wanna tell you but I'm super shy, super shy
+I'm super shy, super shy
+But wait a minute while I make you mine make you mine
+떨리는 지금도 you're on my mind all the time
+I wanna tell you but I'm super shy, super shy
+And I wanna go out with you, where you wanna go? (Huh?)
+Find a lil' spot, just sit and talk
+Looking pretty, follow me, 우리 둘이 나란히
+보이지? 내 눈이 갑자기 빛나지 when you say I'm your dream
+You don't even know my name, do you?
+You don't even know my name, do you?
+누구보다도
+I'm super shy, super shy
+But wait a minute while I make you mine make you mine
+떨리는 지금도 you're on my mind all the time
+I wanna tell you but I'm super shy, super shy
+I'm super shy, super shy
+But wait a minute while I make you mine, make you mine
+떨리는 지금도 you're on my mind all the time
+I wanna tell you but I'm super shy, super shy
+나 원래 말도 잘하고 그런데 왜 이런지?
+I don't like that
+Something odd about you, yeah, you're special and you know it
+You're the top, babe
+I'm super shy, super shy
+But wait a minute while I make you mine make you mine
+떨리는 지금도 you're on my mind all the time
+I wanna tell you but I'm super shy, super shy
+I'm super shy, super shy
+But wait a minute while I make you mine make you mine
+떨리는 지금도 you're on my mind all the time
+I wanna tell you but I'm super shy, super shy
+You don't even know my name, do you?
+You don't even know my name, do you?
+누구보다도
+You don't even know my name (super shy, super shy)
+Do you? (Make you mine, make you mine)
+You don't even know my name (you're on my mind all the time, I wanna tell you)
+Do you? (But I'm super shy, I'm super shy)
+`,
+  },
+  {
+    path: "songs/zayn.mp3",
+    displayName: "Dusk Till Dawn",
+    cover: "songs/zayn.jpg",
+    artist: "Zayn ft.Sia",
+    lyrics: `Request by: Zendaya realnofeik
+  
+Not tryna be indie
+Not tryna be cool
+Just tryna be in this
+Tell me, are you too?
+
+Can you feel where the wind is?
+Can you feel it through
+All of the windows
+Inside this room?
+
+'Cause I wanna touch you, baby
+And I wanna feel you too
+I wanna see the Sun rise on your sins
+Just me and you
+
+Light it up, on the run
+Let's make love tonight
+Make it up, fall in love, try
+(Baby, I'm right here)
+
+But you'll never be alone
+I'll be with you from dusk till dawn
+I'll be with you from dusk till dawn
+Baby, I'm right here
+I'll hold you when things go wrong
+I'll be with you from dusk till dawn
+I'll be with you from dusk till dawn
+Baby, I'm right here
+
+I'll be with you from dusk till dawn
+Baby, I'm right here
+
+We were shut like a jacket
+So do your zip
+We would roll down the rapids
+To find a wave that fits
+
+Can you feel where the wind is?
+Can you feel it through
+All of the windows
+Inside this room?
+
+'Cause I wanna touch you, baby
+I wanna feel you too
+I wanna see the Sun rise on your sins
+Just me and you
+
+Light it up, on the run
+Let's make love tonight
+Make it up, fall in love, try
+(Baby, I'm right here)
+
+But you'll never be alone
+I'll be with you from dusk till dawn
+I'll be with you from dusk till dawn
+Baby, I'm right here
+I'll hold you when things go wrong
+I'll be with you from dusk till dawn
+I'll be with you from dusk till dawn
+Baby, I'm right here
+
+Girl, give love to your body
+It's only you that can stop it
+Girl, give love to your body
+It's only you that can stop it
+
+Girl, give love to your body
+It's only you that can stop it
+Girl, give love to your body
+Girl, give love to your body
+
+But you'll never be alone
+I'll be with you from dusk till dawn
+I'll be with you from dusk till dawn
+Baby, I'm right here
+I'll hold you when things go wrong
+I'll be with you from dusk till dawn
+I'll be with you from dusk till dawn
+Baby, I'm right here
+
+I'll be with you from dusk till dawn
+Baby, I'm right here
+`,
+  },
+  {
+    path: "songs/enemy.mp3",
+    displayName: "Enemy",
+    cover: "songs/enemy.jpg",
+    artist: "Imagine Dragons x JID",
+    lyrics: `Request by: Recuestionador
+  
+(Look out for yourself)
+I wake up to the sounds of the silence that allows
+For my mind to run around, with my ear up to the ground
+I'm searching to behold the stories that are told
+When my back is to the world that was smiling when I turned
+
+Tell you: You're the greatest
+But once you turn, they hate us
+
+Oh, the misery
+Everybody wants to be my enemy
+Spare the sympathy
+Everybody wants to be my enemy-y-y-y-y
+(Look out for yourself)
+My enemy-y-y-y-y
+(Look out for yourself)
+But I'm ready
+
+Your words up on the wall as you'rе praying for my fall
+And the laughter in thе halls
+And the names that I've been called
+I stack it in my mind and I'm waiting for the time
+When I show you what it's like to be words spit in a mic
+
+Tell you: You're the greatest
+But once you turn, they hate us
+
+Oh, the misery
+Everybody wants to be my enemy
+Spare the sympathy
+Everybody wants to be my enemy-y-y-y-y
+(Look out for yourself)
+My enemy-y-y-y-y (yeah)
+(Look out for yourself)
+
+Uh, look, okay
+I'm hoping that somebody pray for me
+I'm praying that somebody hope for me
+I'm staying where nobody 'posed to be
+P-p-posted, being a wreck of emotions
+Ready to go whenever just let me know
+The road is long so put the pedal into the floor
+The enemy's on my trail, my energy unavailable
+I'ma tell 'em: Hasta luego
+They wanna plot on my trot to the top
+I've been outta shape, thinking out the box I'm an astronaut
+I blasted off the planet rock to cause catastrophe
+And it matters more because I had it not
+Had I thought about wreaking havoc on an opposition
+Kinda shockin' they wanted a static with precision I'm automatic quaterback
+I ain't talking sacking, pack it, pack it up, I don't panic
+Batter, batter up, who the baddest?
+It don't matter 'cause we at ya throat
+
+Everybody wants to be my enemy
+Spare the sympathy
+Everybody wants to be my enemy
+Oh, the misery
+Everybody wants to be my enemy
+Spare the sympathy
+Everybody wants to be my enemy
+
+Pray it away, I swear
+I'll never be a saint, no way
+My enemy
+Pray it away, I swear
+I'll never be a saint
+(Look out for yourself)
+`,
+  },
+  {
+    path: "songs/gliter.mp3",
+    displayName: "Rock & Roll Part 2",
+    cover: "songs/gliter.jpg",
+    artist: "Gary Glitter",
+    lyrics: `Request by: El bromas
+
+Letras No Disponibles.
+`,
+  },
+  {
+    path: "songs/yellow.mp3",
+    displayName: "Yellow Line",
+    cover: "songs/yellow.jpg",
+    artist: "James Shimoji",
+    lyrics: `Request by: El koreano discotekero
+
+Letras No Disponibles.
+`,
+  },
+  {
     path: "songs/culpable.mp3",
     displayName: "Culpable o No",
     cover: "songs/culpable.jpg",
