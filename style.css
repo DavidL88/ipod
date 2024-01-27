@@ -151,8 +151,8 @@ body {
   left: 0;
   bottom: 0;
   right: 0;
-  min-inline-size: 50%;
-  min-block-size: 50%;
+  min-inline-size: 100%;
+  min-block-size: 100%;
   filter: blur(15px);
   -webkit-filter: blur(50px);
   transform: scale(1.1);
